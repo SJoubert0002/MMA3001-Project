@@ -1,0 +1,79 @@
+Building,Floor/Room,Area,Physical Label,Sensor,ID
+60,1-PS01,Corridor,ES1104,Env,6.012E+12
+69,1-PS02,Breakout,ES2113,Env,6.012E+12
+60,1.4,Board Room,ES1102,Env,6.012E+12
+60,1.41,Open Office,ES1110,Env,6.012E+12
+60,1.41A,Focus Room 1,ES1101,Env,6.012E+12
+60,1.42,Startup Workshop,ES1103,Env,6.012E+12
+60,1.43,Startup,ES1105,Env,6.012E+12
+60,1.45,Meeting Room,ES1106,Env,6.012E+12
+60,1.47,Corridor,ES1107,Env,6.012E+12
+60,1.49,Workshop,ES1108,Env,6.012E+12
+60,1.53,Startup,ES1109,Env,6.012E+12
+69,1.61,Workshop,ES2102,Env,6.012E+12
+69,1.63,Startup,ES2103,Env,6.012E+12
+69,1.65,Collab Breakout (W),ES2105,Env,6.012E+12
+69,1.65,Collab Breakout (E),ES2106,Env,6.012E+12
+69,1.66,Lab,ES2104,Env,6.012E+12
+69,1.69,Meeting Room,ES2107,Env,6.012E+12
+69,1.7,Meeting Room,ES2108,Env,6.012E+12
+69,1.73,Startup,ES2109,Env,6.012E+12
+69,1.74,Open Office (West),ES2110,Env,6.012E+12
+69,1.74,Open Office (East),ES2111,Env,6.012E+12
+69,1.75,Workshop,ES2112,Env,6.012E+12
+69,1.76,Lab,ES2115,Env,6.012E+12
+69,1.77,Lab,ES2116,Env,6.012E+12
+69,1.78,Lab,ES2114,Env,6.012E+12
+69,69,Lab,ES2101,Env,6.012E+12
+60,G-PS01,Electrical,EMS006,Env,6.012E+12
+60,G-PS01,Motorsport,EMS010,Env,6.012E+12
+60,G-PS02,Corridor (North),ES1G04,Env,6.012E+12
+60,G-PS02,Corridor (Comms),ES1G05,Env,6.012E+12
+60,G-PS02,Corridor (South),ES1G08,Env,6.012E+12
+69,G-PS05,West Entrance,ES2G02,Env,6.012E+12
+69,G-PS05,Corridor,ES2G11,Env,6.012E+12
+60,G.20,Informal Breakout 1,ES1G01,Env,6.012E+12
+60,G.20,Informal Breakout 2,ES1G02,Env,6.012E+12
+60,G.20,Informal Breakout 3,ES1G03,Env,6.012E+12
+60,G.23,Collab Space (West),ES1G06,Env,6.012E+12
+60,G.23,Collab Space (East),ES1G07,Env,6.012E+12
+60,G.25,MSM_3D Printers,ES1G09,Env,6.012E+12
+60,G.25,MSM_Demo,ES1G10,Env,6.012E+12
+60,G.25,MSM_CNC,ES1G11,Env,6.012E+12
+60,G.25,MSM_Robot Charging,ES1G12,Env,6.012E+12
+60,G.25,MSM_Central,ES1G14,Env,6.012E+12
+60,G.25A,MSM_Control Room,ES1G13,Env,6.012E+12
+60,G.33B,Motorsport_upper,EMS109,Env,6.012E+12
+60,G.33C,Motorsport,EMS012,Env,6.012E+12
+60,G.33C,Motorsport_upper,EMS104,Env,6.012E+12
+60,G.33D,Precious Plastic,EMS004,Env,6.012E+12
+60,G.34A,Fabrication 1,EMS001,Env,6.012E+12
+60,G.34A,Fabrication 2,EMS007,Env,6.012E+12
+60,G.34B,Sanding,EMS005,Env,6.012E+12
+60,G.35A,Machining,EMS013,Env,6.012E+12
+60,G.35A,Machining_upper,EMS103,Env,6.012E+12
+60,G.35B,Composites 1_upper,EMS102,Env,6.012E+12
+60,G.35B,Composites 2_upper,EMS108,Env,6.012E+12
+60,G.36,Compactus_upper,EMS106,Env,6.012E+12
+60,G.37A,UAS,EMS003,Env,6.012E+12
+60,G.37A,UAS_upper,EMS101,Env,6.012E+12
+60,G.37B,HPR,EMS009,Env,6.012E+12
+60,G.38,Compactus,EMS014,Env,6.012E+12
+60,G.38,Compactus_upper,EMS107,Env,6.012E+12
+60,G.39,Kitchenette,EMS011,Env,6.012E+12
+60,G.40,NOVA,EMS008,Env,6.012E+12
+60,G.40,NOVA_upper,EMS105,Env,6.012E+12
+60,G.40A,Gallery Display,EMS002,Env,6.012E+12
+69,G.52,Workshop,ES2G14,Env,6.012E+12
+69,G.54,Workshop,ES2G03,Env,6.012E+12
+69,G.55,Lab,ES2G04,Env,6.012E+12
+69,G.56,Collaboration Area,ES2G05,Env,6.012E+12
+69,G.56,Corridor,ES2G06,Env,6.012E+12
+69,G.57,Living Lab 1,ES2G08,Env,6.012E+12
+69,G.57,Living Lab 2,ES2G09,Env,6.012E+12
+69,G.58,Workshop,ES2G07,Env,6.012E+12
+69,G.59,Workshop,ES2G10,Env,6.012E+12
+69,G.60,Lab,ES2G12,Env,6.012E+12
+69,G.61,East Entrance,ES2G01,Env,6.012E+12
+69,G.61,Collaboration Area,ES2G13,Env,6.012E+12
+69,G.62,Lab,ES2G15,Env,6.012E+12
