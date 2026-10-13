@@ -1,0 +1,3 @@
+﻿"read_mode","rows","columns","elapsed_seconds","estimated_largest_chunk_payload_mib","chunk_size_rows","measurement"
+"full_read","179447","17","5.508","36.75","100000","TextFieldParser elapsed; estimated selected-field UTF-16 payload plus 8-byte references, not process peak memory."
+"reduced_read","179447","12","4.795","17.742","100000","TextFieldParser elapsed; estimated selected-field UTF-16 payload plus 8-byte references, not process peak memory."
