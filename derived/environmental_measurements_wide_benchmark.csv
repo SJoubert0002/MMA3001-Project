@@ -1,5 +1,5 @@
-dataset,read_type,rows,columns,elapsed_seconds,largest_chunk_mib
-environmental_measurements_wide.csv,full_read,179447,17,0.2999806001316756,18.15724754333496
-environmental_measurements_wide.csv,reduced_read,179447,14,0.24102130020037293,11.58208179473877
-environmental_measurements_wide_reduced.csv,full_read,179447,14,0.20344970002770424,11.58208179473877
-environmental_measurements_wide_reduced.csv,reduced_read,179447,14,0.21577849984169006,11.58208179473877
+dataset,comparison_group,representation,files,read_type,rows,columns,repeats,elapsed_seconds,min_elapsed_seconds,max_elapsed_seconds,largest_chunk_mib
+environmental_measurements_wide.csv,wide_column_reduction,pre-reduction,1,full_read,179447,17,3,0.3042628997936845,0.3022762998007238,0.3242320001590997,18.15724754333496
+environmental_measurements_wide.csv,wide_column_reduction,pre-reduction,1,reduced_read,179447,14,3,0.22029109997674823,0.2197734999936074,0.22245670016855001,11.58208179473877
+environmental_measurements_wide_reduced.csv,environmental,processed,1,full_read,179447,14,3,0.208984499797225,0.20282010012306273,0.2107413001358509,11.58208179473877
+environmental_measurements_wide_reduced.csv,environmental,processed,1,reduced_read,179447,14,3,0.20192470005713403,0.20132490014657378,0.20527289994060993,11.58208179473877
