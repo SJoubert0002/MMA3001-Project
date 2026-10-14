@@ -1,0 +1,7 @@
+dataset,read_type,rows,columns,elapsed_seconds,largest_chunk_mib
+environmental_measurements_wide.csv,full_read,179447,17,0.2999806001316756,18.15724754333496
+environmental_measurements_wide.csv,reduced_read,179447,14,0.24102130020037293,11.58208179473877
+environmental_measurements_wide_reduced.csv,full_read,179447,14,0.20344970002770424,11.58208179473877
+environmental_measurements_wide_reduced.csv,reduced_read,179447,14,0.21577849984169006,11.58208179473877
+5occupancySensor_MayToDec2024_9MRows.csv,full_read,9091732,8,15.553672400070354,21.850818634033203
+5occupancySensor_MayToDec2024_9MRows.csv,reduced_read,9091732,4,9.729977899929509,8.201725006103516

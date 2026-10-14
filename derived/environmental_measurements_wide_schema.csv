@@ -1,12 +1,12 @@
-﻿"variable_id","variable","unit","source","structure","output_column"
-"47","Particulate matter 1","µg/m3","1","33071","var_47_particulate_matter_1_ug_m3"
-"48","Particulate matter 4","µg/m3","1","33072","var_48_particulate_matter_4_ug_m3"
-"49","Particulate matter 2.5","µg/m3","1","33073","var_49_particulate_matter_2_5_ug_m3"
-"50","Particulate matter 10","µg/m3","1","33074","var_50_particulate_matter_10_ug_m3"
-"66","Battery","V","0","32834","var_66_battery_v"
-"67","Carbon dioxide","ppm","0","32835","var_67_carbon_dioxide_ppm"
-"70","Formaldehyde","µg/m3","0","32847","var_70_formaldehyde_ug_m3"
-"72","Humidity","HR%","0","32840","var_72_humidity_hr"
-"80","Pressure","mb","0","32848","var_80_pressure_mb"
-"84","Temperature","°C","0","32852","var_84_temperature_c"
-"99","Light Volatile Organic Compounds","ppb","0","32867","var_99_light_volatile_organic_compounds_ppb"
+variable_id,variable,unit,source,structure,output_column
+47,Particulate matter 1,µg/m3,1,33071,var_47_particulate_matter_1
+48,Particulate matter 4,µg/m3,1,33072,var_48_particulate_matter_4
+49,Particulate matter 2.5,µg/m3,1,33073,var_49_particulate_matter_2_5
+50,Particulate matter 10,µg/m3,1,33074,var_50_particulate_matter_10
+66,Battery,V,0,32834,var_66_battery
+67,Carbon dioxide,ppm,0,32835,var_67_carbon_dioxide
+70,Formaldehyde,µg/m3,0,32847,var_70_formaldehyde
+72,Humidity,HR%,0,32840,var_72_humidity
+80,Pressure,mb,0,32848,var_80_pressure
+84,Temperature,°C,0,32852,var_84_temperature
+99,Light Volatile Organic Compounds,ppb,0,32867,var_99_light_volatile_organic_compounds
