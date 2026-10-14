@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 ﻿"read_mode","rows","columns","elapsed_seconds","estimated_largest_chunk_payload_mib","chunk_size_rows","measurement"
 "full_read","179447","17","5.508","36.75","100000","TextFieldParser elapsed; estimated selected-field UTF-16 payload plus 8-byte references, not process peak memory."
 "reduced_read","179447","12","4.795","17.742","100000","TextFieldParser elapsed; estimated selected-field UTF-16 payload plus 8-byte references, not process peak memory."
+=======
+dataset,read_type,rows,columns,elapsed_seconds,largest_chunk_mib,excluded_columns
+environmental_measurements_wide.csv,full_read,179447,17,0.3209225998725742,36.31395721435547,"['devicetype', 'processdate', 'sensor_id']"
+environmental_measurements_wide.csv,reduced_read,179447,14,0.23567239986732602,23.16383171081543,"['devicetype', 'processdate', 'sensor_id']"
+environmental_measurements_wide_reduced.csv,full_read,179447,14,0.20244530006311834,23.16383171081543,[]
+environmental_measurements_wide_reduced.csv,reduced_read,179447,14,0.20322900009341538,23.16383171081543,[]
+>>>>>>> 1ecd8ee (Update preprocessing and ignore generated data)

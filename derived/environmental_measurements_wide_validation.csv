@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿"check","result","observed","expected","notes"
 "source_rows","PASS","179447","> 0","All source CSV records parsed; IDs unique."
 "wide_rows","PASS","179447","179447","One output row per record and unique JSON timestamp."
@@ -12,3 +13,11 @@
 "records_with_multiple_timestamps","INFO","0","reported","Rows expanded only where source record contains multiple timestamps."
 "wide_blank_measurement_cells","INFO","149782","reported","Includes absent variable values and missing readings."
 "output_schema_and_values","PASS","17","valid timestamps; numeric or blank measurements","Read-back validation passed."
+=======
+check,result,observed,expected,notes
+wide_schema_and_raw_ids,PASS,179447,raw record IDs match,17 columns; 11 measurements.
+invariant_columns,PASS,sensor_id=6012000000000; devicetype=env,constant on all rows,Validated before candidate columns are excluded.
+createdate_processdate,PASS,179447 equal; 0 unequal; 0 unparseable,all equal to exclude processdate,Compared parsed UTC instants; createdate is retained.
+createdate_measurement_time,INFO,0 equal; 179447 unequal; 0 unparseable,report only,timestamp_utc is the sensor measurement time and is retained.
+reduced_output_rows,PASS,179447,179447,"Retained columns: ['source_record_id', 'createdate', 'timestamp_utc', 'var_47_particulate_matter_1_ug_m3', 'var_48_particulate_matter_4_ug_m3', 'var_49_particulate_matter_2_5_ug_m3', 'var_50_particulate_matter_10_ug_m3', 'var_66_battery_v', 'var_67_carbon_dioxide_ppm', 'var_70_formaldehyde_ug_m3', 'var_72_humidity_hr', 'var_80_pressure_mb', 'var_84_temperature_c', 'var_99_light_volatile_organic_compounds_ppb']."
+>>>>>>> 1ecd8ee (Update preprocessing and ignore generated data)

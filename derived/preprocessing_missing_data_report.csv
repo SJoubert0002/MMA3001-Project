@@ -1,0 +1,14 @@
+dataset,column,missing_type,count,handling
+occupancy,previousoccupancystatus,unknown,193058,Excluded from derived occupancy streams; raw value retained only in source CSV.
+occupancy,previousoccupancystatus,blank_or_null,0,Excluded from derived occupancy streams; raw value retained only in source CSV.
+environmental,var_47_particulate_matter_1_ug_m3,missing_measurement,1709,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_48_particulate_matter_4_ug_m3,missing_measurement,1709,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_49_particulate_matter_2_5_ug_m3,missing_measurement,1709,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_50_particulate_matter_10_ug_m3,missing_measurement,1709,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_66_battery_v,missing_measurement,0,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_67_carbon_dioxide_ppm,missing_measurement,0,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_70_formaldehyde_ug_m3,missing_measurement,113380,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_72_humidity_hr,missing_measurement,0,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_80_pressure_mb,missing_measurement,0,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_84_temperature_c,missing_measurement,0,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
+environmental,var_99_light_volatile_organic_compounds_ppb,missing_measurement,29566,Kept as NaN in the reduced wide CSV; raw JSON and source rows are unchanged.
