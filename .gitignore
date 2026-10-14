@@ -1,5 +1,8 @@
 5EnvSensor_MayToDec2024_180kRows.csv
 5occupancySensor_MayToDec2024_9MRows.csv
+/data/**
+!/data/.gitkeep
+/archive/working_tree_diff_summary.txt
 derived/environmental_measurements_wide.csv
 derived/occupancy_measurements_wide.csv
 derived/occupancy_streams_by_floorspace/

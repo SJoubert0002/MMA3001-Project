@@ -34,6 +34,17 @@ I maintained full human oversight throughout the project lifecycle. All AI-gener
 
 This project adheres to ethical AI use, recognising AI as a powerful tool that augments human capability. The application of AI was transparent, documented, and guided by informed professional judgment, ensuring that its contribution is responsible and aligned with professional engineering standards.
 
+## Project structure
+
+- `data/` — local raw CSV inputs. Contents are ignored by Git; keep `data/.gitkeep` so the folder exists after cloning.
+- `derived/` — generated preprocessing datasets, validation results, and reports.
+- `notebooks/` — exploratory and analysis notebooks.
+- `test/` — automated or focused test files.
+- `source/` — reusable project code.
+- `examples/` — example inputs or usage material.
+
+Run `pre-Processing.ipynb` from the repository root. It selects the newest complete environmental and occupancy CSV exports in `data/` and writes generated files under `derived/`.
+
 
 ## 🤖 AI Acknowledgement for Project README
 
