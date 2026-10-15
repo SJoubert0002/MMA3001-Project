@@ -1,5 +1,0 @@
-dataset,comparison_group,representation,files,read_type,rows,columns,repeats,elapsed_seconds,min_elapsed_seconds,max_elapsed_seconds,largest_chunk_mib
-environmental_measurements_wide.csv,wide_column_reduction,pre-reduction,1,full_read,179447,17,3,0.3181045001838356,0.3089511999860406,0.32035850011743605,18.15724754333496
-environmental_measurements_wide.csv,wide_column_reduction,pre-reduction,1,reduced_read,179447,14,3,0.23306419979780912,0.23013079981319606,0.2379703999031335,11.58208179473877
-environmental_measurements_wide_reduced.csv,environmental,processed,1,full_read,179447,14,3,0.21439290000125766,0.20933400001376867,0.21459690015763044,11.58208179473877
-environmental_measurements_wide_reduced.csv,environmental,processed,1,reduced_read,179447,14,3,0.20821809978224337,0.2031715998891741,0.2104392999317497,11.58208179473877

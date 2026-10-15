@@ -1,0 +1,11 @@
+dataset,comparison_group,representation,files,read_type,rows,columns,repeats,elapsed_seconds,min_elapsed_seconds,max_elapsed_seconds,largest_chunk_mib
+5EnvSensor_MayToDec2024_180kRows.csv,environmental,raw,1,full_read,179447,8,3,1.7942256999958772,1.7904094000041368,1.8410073999984888,95.5427827835083
+5EnvSensor_MayToDec2024_180kRows.csv,environmental,raw,1,reduced_read,179447,3,3,1.669012800004566,1.6620504000020446,1.6954165999995894,85.8206033706665
+environmental_measurements_wide.csv,wide_column_reduction,pre-reduction,1,full_read,179447,17,3,0.30757640000229003,0.3011135999986436,0.3076989000037429,18.15724754333496
+environmental_measurements_wide.csv,wide_column_reduction,pre-reduction,1,reduced_read,179447,14,3,0.22251739999774145,0.2190102000022307,0.22650029999931576,11.58208179473877
+environmental_measurements_wide_reduced.csv,environmental,processed,1,full_read,179447,14,3,0.19495000000461005,0.1947031000017887,0.20191479999630246,11.58208179473877
+environmental_measurements_wide_reduced.csv,environmental,processed,1,reduced_read,179447,14,3,0.19452310000633588,0.19209089999640128,0.19869699999981094,11.58208179473877
+5occupancySensor_MayToDec2024_9MRows.csv,occupancy,raw,1,full_read,9091732,8,3,14.923287899997376,14.857107700001507,15.242545000000973,21.850818634033203
+5occupancySensor_MayToDec2024_9MRows.csv,occupancy,raw,1,reduced_read,9091732,4,3,9.532451400002174,9.19487559999834,9.615305300001637,8.201725006103516
+occupancy_processed_streams,occupancy,processed,5,full_read,9091732,4,3,6.84527099999832,6.744034100003773,6.92508679999446,8.201725006103516
+occupancy_processed_streams,occupancy,processed,5,reduced_read,9091732,4,3,6.8734305999969365,6.784456599998521,6.899113400002534,8.201725006103516

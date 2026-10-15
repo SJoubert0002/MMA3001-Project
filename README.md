@@ -42,8 +42,10 @@ This project adheres to ethical AI use, recognising AI as a powerful tool that a
 - `test/` — automated or focused test files.
 - `source/` — reusable project code.
 - `examples/` — example inputs or usage material.
+- `docs/` — project and preprocessing documentation.
 
-Run `pre-Processing.ipynb` from the repository root. It selects the newest complete environmental and occupancy CSV exports in `data/` and writes generated files under `derived/`.
+Run `pre-Processing.ipynb` from the repository root. Run the preprocessing cell first, then work through the occupancy investigation audit and analysis cells. The investigation examines occupancy across academic-semester phases, week-to-week changes, and within-day peaks; its reports are written under `derived/occupancy_investigation/reports/`. The notebook selects the newest complete environmental and occupancy CSV exports in `data/`. The previous semester-cycle investigation is preserved in `notebooks/archive/semester_cycle_occupancy_investigation.ipynb`, with its historical reports under `derived/archive/semester_cycle_occupancy_investigation/reports/`. The earlier environmental-occupancy comparison remains exploratory: environmental measurements currently overlap occupancy only from May to mid-June 2024, and the sensor-to-room mapping is unverified.
+See [the preprocessing documentation](docs/preprocessing.md) for the input contract, processing decisions, outputs, validation, benchmarks, assumptions, and limitations.
 
 
 ## 🤖 AI Acknowledgement for Project README

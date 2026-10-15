@@ -1,0 +1,481 @@
+month,metric,metric_name,occupancy_series,environment_valid_hour_bins,occupancy_observed_hour_bins,paired_hour_bins,paired_local_dates,environmental_measurement_records_in_month
+2024-05,var_47_particulate_matter_1,Particulate matter 1,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_48_particulate_matter_4,Particulate matter 4,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_49_particulate_matter_2_5,Particulate matter 2.5,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_50_particulate_matter_10,Particulate matter 10,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_67_carbon_dioxide,Carbon dioxide,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_70_formaldehyde,Formaldehyde,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_72_humidity,Humidity,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_80_pressure,Pressure,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_84_temperature,Temperature,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,729,632,632,31,4159
+2024-05,var_47_particulate_matter_1,Particulate matter 1,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_48_particulate_matter_4,Particulate matter 4,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_49_particulate_matter_2_5,Particulate matter 2.5,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_50_particulate_matter_10,Particulate matter 10,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_67_carbon_dioxide,Carbon dioxide,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_70_formaldehyde,Formaldehyde,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_72_humidity,Humidity,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_80_pressure,Pressure,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_84_temperature,Temperature,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,227f1068-9e41-469f-bef0-275f27a0bdba,729,683,683,31,4159
+2024-05,var_47_particulate_matter_1,Particulate matter 1,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_48_particulate_matter_4,Particulate matter 4,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_49_particulate_matter_2_5,Particulate matter 2.5,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_50_particulate_matter_10,Particulate matter 10,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_67_carbon_dioxide,Carbon dioxide,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_70_formaldehyde,Formaldehyde,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_72_humidity,Humidity,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_80_pressure,Pressure,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_84_temperature,Temperature,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,729,540,540,31,4159
+2024-05,var_47_particulate_matter_1,Particulate matter 1,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_48_particulate_matter_4,Particulate matter 4,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_49_particulate_matter_2_5,Particulate matter 2.5,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_50_particulate_matter_10,Particulate matter 10,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_67_carbon_dioxide,Carbon dioxide,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_70_formaldehyde,Formaldehyde,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_72_humidity,Humidity,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_80_pressure,Pressure,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_84_temperature,Temperature,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,941f0352-bb69-47d0-a9c5-ac29eb4f7319,729,573,573,31,4159
+2024-05,var_47_particulate_matter_1,Particulate matter 1,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_48_particulate_matter_4,Particulate matter 4,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_49_particulate_matter_2_5,Particulate matter 2.5,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_50_particulate_matter_10,Particulate matter 10,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_67_carbon_dioxide,Carbon dioxide,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_70_formaldehyde,Formaldehyde,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_72_humidity,Humidity,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_80_pressure,Pressure,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_84_temperature,Temperature,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,729,454,454,31,4159
+2024-05,var_47_particulate_matter_1,Particulate matter 1,all_five_spaces_total,729,360,360,30,4159
+2024-05,var_48_particulate_matter_4,Particulate matter 4,all_five_spaces_total,729,360,360,30,4159
+2024-05,var_49_particulate_matter_2_5,Particulate matter 2.5,all_five_spaces_total,729,360,360,30,4159
+2024-05,var_50_particulate_matter_10,Particulate matter 10,all_five_spaces_total,729,360,360,30,4159
+2024-05,var_67_carbon_dioxide,Carbon dioxide,all_five_spaces_total,729,360,360,30,4159
+2024-05,var_70_formaldehyde,Formaldehyde,all_five_spaces_total,729,360,360,30,4159
+2024-05,var_72_humidity,Humidity,all_five_spaces_total,729,360,360,30,4159
+2024-05,var_80_pressure,Pressure,all_five_spaces_total,729,360,360,30,4159
+2024-05,var_84_temperature,Temperature,all_five_spaces_total,729,360,360,30,4159
+2024-05,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,all_five_spaces_total,729,360,360,30,4159
+2024-06,var_47_particulate_matter_1,Particulate matter 1,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_48_particulate_matter_4,Particulate matter 4,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_49_particulate_matter_2_5,Particulate matter 2.5,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_50_particulate_matter_10,Particulate matter 10,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_67_carbon_dioxide,Carbon dioxide,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_70_formaldehyde,Formaldehyde,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_72_humidity,Humidity,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_80_pressure,Pressure,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_84_temperature,Temperature,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,316,260,260,14,17202
+2024-06,var_47_particulate_matter_1,Particulate matter 1,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_48_particulate_matter_4,Particulate matter 4,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_49_particulate_matter_2_5,Particulate matter 2.5,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_50_particulate_matter_10,Particulate matter 10,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_67_carbon_dioxide,Carbon dioxide,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_70_formaldehyde,Formaldehyde,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_72_humidity,Humidity,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_80_pressure,Pressure,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_84_temperature,Temperature,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,227f1068-9e41-469f-bef0-275f27a0bdba,316,307,307,14,17202
+2024-06,var_47_particulate_matter_1,Particulate matter 1,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_48_particulate_matter_4,Particulate matter 4,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_49_particulate_matter_2_5,Particulate matter 2.5,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_50_particulate_matter_10,Particulate matter 10,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_67_carbon_dioxide,Carbon dioxide,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_70_formaldehyde,Formaldehyde,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_72_humidity,Humidity,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_80_pressure,Pressure,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_84_temperature,Temperature,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,316,258,258,13,17202
+2024-06,var_47_particulate_matter_1,Particulate matter 1,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_48_particulate_matter_4,Particulate matter 4,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_49_particulate_matter_2_5,Particulate matter 2.5,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_50_particulate_matter_10,Particulate matter 10,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_67_carbon_dioxide,Carbon dioxide,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_70_formaldehyde,Formaldehyde,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_72_humidity,Humidity,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_80_pressure,Pressure,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_84_temperature,Temperature,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,941f0352-bb69-47d0-a9c5-ac29eb4f7319,316,210,210,13,17202
+2024-06,var_47_particulate_matter_1,Particulate matter 1,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_48_particulate_matter_4,Particulate matter 4,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_49_particulate_matter_2_5,Particulate matter 2.5,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_50_particulate_matter_10,Particulate matter 10,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_67_carbon_dioxide,Carbon dioxide,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_70_formaldehyde,Formaldehyde,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_72_humidity,Humidity,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_80_pressure,Pressure,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_84_temperature,Temperature,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,316,190,190,14,17202
+2024-06,var_47_particulate_matter_1,Particulate matter 1,all_five_spaces_total,316,147,147,13,17202
+2024-06,var_48_particulate_matter_4,Particulate matter 4,all_five_spaces_total,316,147,147,13,17202
+2024-06,var_49_particulate_matter_2_5,Particulate matter 2.5,all_five_spaces_total,316,147,147,13,17202
+2024-06,var_50_particulate_matter_10,Particulate matter 10,all_five_spaces_total,316,147,147,13,17202
+2024-06,var_67_carbon_dioxide,Carbon dioxide,all_five_spaces_total,316,147,147,13,17202
+2024-06,var_70_formaldehyde,Formaldehyde,all_five_spaces_total,316,147,147,13,17202
+2024-06,var_72_humidity,Humidity,all_five_spaces_total,316,147,147,13,17202
+2024-06,var_80_pressure,Pressure,all_five_spaces_total,316,147,147,13,17202
+2024-06,var_84_temperature,Temperature,all_five_spaces_total,316,147,147,13,17202
+2024-06,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,all_five_spaces_total,316,147,147,13,17202
+2024-07,var_47_particulate_matter_1,Particulate matter 1,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_48_particulate_matter_4,Particulate matter 4,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_49_particulate_matter_2_5,Particulate matter 2.5,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_50_particulate_matter_10,Particulate matter 10,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_67_carbon_dioxide,Carbon dioxide,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_70_formaldehyde,Formaldehyde,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_72_humidity,Humidity,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_80_pressure,Pressure,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_84_temperature,Temperature,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-07,var_47_particulate_matter_1,Particulate matter 1,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_48_particulate_matter_4,Particulate matter 4,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_49_particulate_matter_2_5,Particulate matter 2.5,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_50_particulate_matter_10,Particulate matter 10,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_67_carbon_dioxide,Carbon dioxide,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_70_formaldehyde,Formaldehyde,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_72_humidity,Humidity,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_80_pressure,Pressure,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_84_temperature,Temperature,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-07,var_47_particulate_matter_1,Particulate matter 1,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_48_particulate_matter_4,Particulate matter 4,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_49_particulate_matter_2_5,Particulate matter 2.5,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_50_particulate_matter_10,Particulate matter 10,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_67_carbon_dioxide,Carbon dioxide,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_70_formaldehyde,Formaldehyde,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_72_humidity,Humidity,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_80_pressure,Pressure,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_84_temperature,Temperature,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-07,var_47_particulate_matter_1,Particulate matter 1,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_48_particulate_matter_4,Particulate matter 4,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_49_particulate_matter_2_5,Particulate matter 2.5,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_50_particulate_matter_10,Particulate matter 10,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_67_carbon_dioxide,Carbon dioxide,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_70_formaldehyde,Formaldehyde,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_72_humidity,Humidity,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_80_pressure,Pressure,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_84_temperature,Temperature,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-07,var_47_particulate_matter_1,Particulate matter 1,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_48_particulate_matter_4,Particulate matter 4,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_49_particulate_matter_2_5,Particulate matter 2.5,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_50_particulate_matter_10,Particulate matter 10,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_67_carbon_dioxide,Carbon dioxide,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_70_formaldehyde,Formaldehyde,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_72_humidity,Humidity,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_80_pressure,Pressure,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_84_temperature,Temperature,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-07,var_47_particulate_matter_1,Particulate matter 1,all_five_spaces_total,0,0,0,0,0
+2024-07,var_48_particulate_matter_4,Particulate matter 4,all_five_spaces_total,0,0,0,0,0
+2024-07,var_49_particulate_matter_2_5,Particulate matter 2.5,all_five_spaces_total,0,0,0,0,0
+2024-07,var_50_particulate_matter_10,Particulate matter 10,all_five_spaces_total,0,0,0,0,0
+2024-07,var_67_carbon_dioxide,Carbon dioxide,all_five_spaces_total,0,0,0,0,0
+2024-07,var_70_formaldehyde,Formaldehyde,all_five_spaces_total,0,0,0,0,0
+2024-07,var_72_humidity,Humidity,all_five_spaces_total,0,0,0,0,0
+2024-07,var_80_pressure,Pressure,all_five_spaces_total,0,0,0,0,0
+2024-07,var_84_temperature,Temperature,all_five_spaces_total,0,0,0,0,0
+2024-07,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,all_five_spaces_total,0,0,0,0,0
+2024-08,var_47_particulate_matter_1,Particulate matter 1,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_48_particulate_matter_4,Particulate matter 4,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_49_particulate_matter_2_5,Particulate matter 2.5,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_50_particulate_matter_10,Particulate matter 10,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_67_carbon_dioxide,Carbon dioxide,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_70_formaldehyde,Formaldehyde,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_72_humidity,Humidity,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_80_pressure,Pressure,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_84_temperature,Temperature,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-08,var_47_particulate_matter_1,Particulate matter 1,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_48_particulate_matter_4,Particulate matter 4,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_49_particulate_matter_2_5,Particulate matter 2.5,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_50_particulate_matter_10,Particulate matter 10,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_67_carbon_dioxide,Carbon dioxide,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_70_formaldehyde,Formaldehyde,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_72_humidity,Humidity,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_80_pressure,Pressure,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_84_temperature,Temperature,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-08,var_47_particulate_matter_1,Particulate matter 1,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_48_particulate_matter_4,Particulate matter 4,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_49_particulate_matter_2_5,Particulate matter 2.5,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_50_particulate_matter_10,Particulate matter 10,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_67_carbon_dioxide,Carbon dioxide,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_70_formaldehyde,Formaldehyde,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_72_humidity,Humidity,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_80_pressure,Pressure,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_84_temperature,Temperature,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-08,var_47_particulate_matter_1,Particulate matter 1,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_48_particulate_matter_4,Particulate matter 4,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_49_particulate_matter_2_5,Particulate matter 2.5,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_50_particulate_matter_10,Particulate matter 10,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_67_carbon_dioxide,Carbon dioxide,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_70_formaldehyde,Formaldehyde,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_72_humidity,Humidity,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_80_pressure,Pressure,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_84_temperature,Temperature,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-08,var_47_particulate_matter_1,Particulate matter 1,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_48_particulate_matter_4,Particulate matter 4,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_49_particulate_matter_2_5,Particulate matter 2.5,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_50_particulate_matter_10,Particulate matter 10,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_67_carbon_dioxide,Carbon dioxide,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_70_formaldehyde,Formaldehyde,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_72_humidity,Humidity,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_80_pressure,Pressure,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_84_temperature,Temperature,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-08,var_47_particulate_matter_1,Particulate matter 1,all_five_spaces_total,0,0,0,0,0
+2024-08,var_48_particulate_matter_4,Particulate matter 4,all_five_spaces_total,0,0,0,0,0
+2024-08,var_49_particulate_matter_2_5,Particulate matter 2.5,all_five_spaces_total,0,0,0,0,0
+2024-08,var_50_particulate_matter_10,Particulate matter 10,all_five_spaces_total,0,0,0,0,0
+2024-08,var_67_carbon_dioxide,Carbon dioxide,all_five_spaces_total,0,0,0,0,0
+2024-08,var_70_formaldehyde,Formaldehyde,all_five_spaces_total,0,0,0,0,0
+2024-08,var_72_humidity,Humidity,all_five_spaces_total,0,0,0,0,0
+2024-08,var_80_pressure,Pressure,all_five_spaces_total,0,0,0,0,0
+2024-08,var_84_temperature,Temperature,all_five_spaces_total,0,0,0,0,0
+2024-08,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,all_five_spaces_total,0,0,0,0,0
+2024-09,var_47_particulate_matter_1,Particulate matter 1,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_48_particulate_matter_4,Particulate matter 4,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_49_particulate_matter_2_5,Particulate matter 2.5,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_50_particulate_matter_10,Particulate matter 10,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_67_carbon_dioxide,Carbon dioxide,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_70_formaldehyde,Formaldehyde,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_72_humidity,Humidity,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_80_pressure,Pressure,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_84_temperature,Temperature,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-09,var_47_particulate_matter_1,Particulate matter 1,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_48_particulate_matter_4,Particulate matter 4,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_49_particulate_matter_2_5,Particulate matter 2.5,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_50_particulate_matter_10,Particulate matter 10,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_67_carbon_dioxide,Carbon dioxide,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_70_formaldehyde,Formaldehyde,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_72_humidity,Humidity,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_80_pressure,Pressure,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_84_temperature,Temperature,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-09,var_47_particulate_matter_1,Particulate matter 1,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_48_particulate_matter_4,Particulate matter 4,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_49_particulate_matter_2_5,Particulate matter 2.5,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_50_particulate_matter_10,Particulate matter 10,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_67_carbon_dioxide,Carbon dioxide,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_70_formaldehyde,Formaldehyde,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_72_humidity,Humidity,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_80_pressure,Pressure,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_84_temperature,Temperature,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-09,var_47_particulate_matter_1,Particulate matter 1,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_48_particulate_matter_4,Particulate matter 4,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_49_particulate_matter_2_5,Particulate matter 2.5,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_50_particulate_matter_10,Particulate matter 10,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_67_carbon_dioxide,Carbon dioxide,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_70_formaldehyde,Formaldehyde,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_72_humidity,Humidity,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_80_pressure,Pressure,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_84_temperature,Temperature,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-09,var_47_particulate_matter_1,Particulate matter 1,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_48_particulate_matter_4,Particulate matter 4,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_49_particulate_matter_2_5,Particulate matter 2.5,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_50_particulate_matter_10,Particulate matter 10,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_67_carbon_dioxide,Carbon dioxide,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_70_formaldehyde,Formaldehyde,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_72_humidity,Humidity,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_80_pressure,Pressure,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_84_temperature,Temperature,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-09,var_47_particulate_matter_1,Particulate matter 1,all_five_spaces_total,0,0,0,0,0
+2024-09,var_48_particulate_matter_4,Particulate matter 4,all_five_spaces_total,0,0,0,0,0
+2024-09,var_49_particulate_matter_2_5,Particulate matter 2.5,all_five_spaces_total,0,0,0,0,0
+2024-09,var_50_particulate_matter_10,Particulate matter 10,all_five_spaces_total,0,0,0,0,0
+2024-09,var_67_carbon_dioxide,Carbon dioxide,all_five_spaces_total,0,0,0,0,0
+2024-09,var_70_formaldehyde,Formaldehyde,all_five_spaces_total,0,0,0,0,0
+2024-09,var_72_humidity,Humidity,all_five_spaces_total,0,0,0,0,0
+2024-09,var_80_pressure,Pressure,all_five_spaces_total,0,0,0,0,0
+2024-09,var_84_temperature,Temperature,all_five_spaces_total,0,0,0,0,0
+2024-09,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,all_five_spaces_total,0,0,0,0,0
+2024-10,var_47_particulate_matter_1,Particulate matter 1,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_48_particulate_matter_4,Particulate matter 4,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_49_particulate_matter_2_5,Particulate matter 2.5,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_50_particulate_matter_10,Particulate matter 10,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_67_carbon_dioxide,Carbon dioxide,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_70_formaldehyde,Formaldehyde,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_72_humidity,Humidity,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_80_pressure,Pressure,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_84_temperature,Temperature,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-10,var_47_particulate_matter_1,Particulate matter 1,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_48_particulate_matter_4,Particulate matter 4,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_49_particulate_matter_2_5,Particulate matter 2.5,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_50_particulate_matter_10,Particulate matter 10,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_67_carbon_dioxide,Carbon dioxide,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_70_formaldehyde,Formaldehyde,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_72_humidity,Humidity,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_80_pressure,Pressure,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_84_temperature,Temperature,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-10,var_47_particulate_matter_1,Particulate matter 1,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_48_particulate_matter_4,Particulate matter 4,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_49_particulate_matter_2_5,Particulate matter 2.5,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_50_particulate_matter_10,Particulate matter 10,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_67_carbon_dioxide,Carbon dioxide,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_70_formaldehyde,Formaldehyde,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_72_humidity,Humidity,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_80_pressure,Pressure,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_84_temperature,Temperature,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-10,var_47_particulate_matter_1,Particulate matter 1,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_48_particulate_matter_4,Particulate matter 4,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_49_particulate_matter_2_5,Particulate matter 2.5,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_50_particulate_matter_10,Particulate matter 10,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_67_carbon_dioxide,Carbon dioxide,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_70_formaldehyde,Formaldehyde,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_72_humidity,Humidity,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_80_pressure,Pressure,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_84_temperature,Temperature,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-10,var_47_particulate_matter_1,Particulate matter 1,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_48_particulate_matter_4,Particulate matter 4,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_49_particulate_matter_2_5,Particulate matter 2.5,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_50_particulate_matter_10,Particulate matter 10,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_67_carbon_dioxide,Carbon dioxide,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_70_formaldehyde,Formaldehyde,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_72_humidity,Humidity,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_80_pressure,Pressure,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_84_temperature,Temperature,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-10,var_47_particulate_matter_1,Particulate matter 1,all_five_spaces_total,0,0,0,0,0
+2024-10,var_48_particulate_matter_4,Particulate matter 4,all_five_spaces_total,0,0,0,0,0
+2024-10,var_49_particulate_matter_2_5,Particulate matter 2.5,all_five_spaces_total,0,0,0,0,0
+2024-10,var_50_particulate_matter_10,Particulate matter 10,all_five_spaces_total,0,0,0,0,0
+2024-10,var_67_carbon_dioxide,Carbon dioxide,all_five_spaces_total,0,0,0,0,0
+2024-10,var_70_formaldehyde,Formaldehyde,all_five_spaces_total,0,0,0,0,0
+2024-10,var_72_humidity,Humidity,all_five_spaces_total,0,0,0,0,0
+2024-10,var_80_pressure,Pressure,all_five_spaces_total,0,0,0,0,0
+2024-10,var_84_temperature,Temperature,all_five_spaces_total,0,0,0,0,0
+2024-10,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,all_five_spaces_total,0,0,0,0,0
+2024-11,var_47_particulate_matter_1,Particulate matter 1,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_48_particulate_matter_4,Particulate matter 4,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_49_particulate_matter_2_5,Particulate matter 2.5,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_50_particulate_matter_10,Particulate matter 10,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_67_carbon_dioxide,Carbon dioxide,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_70_formaldehyde,Formaldehyde,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_72_humidity,Humidity,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_80_pressure,Pressure,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_84_temperature,Temperature,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-11,var_47_particulate_matter_1,Particulate matter 1,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_48_particulate_matter_4,Particulate matter 4,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_49_particulate_matter_2_5,Particulate matter 2.5,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_50_particulate_matter_10,Particulate matter 10,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_67_carbon_dioxide,Carbon dioxide,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_70_formaldehyde,Formaldehyde,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_72_humidity,Humidity,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_80_pressure,Pressure,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_84_temperature,Temperature,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-11,var_47_particulate_matter_1,Particulate matter 1,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_48_particulate_matter_4,Particulate matter 4,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_49_particulate_matter_2_5,Particulate matter 2.5,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_50_particulate_matter_10,Particulate matter 10,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_67_carbon_dioxide,Carbon dioxide,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_70_formaldehyde,Formaldehyde,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_72_humidity,Humidity,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_80_pressure,Pressure,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_84_temperature,Temperature,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-11,var_47_particulate_matter_1,Particulate matter 1,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_48_particulate_matter_4,Particulate matter 4,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_49_particulate_matter_2_5,Particulate matter 2.5,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_50_particulate_matter_10,Particulate matter 10,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_67_carbon_dioxide,Carbon dioxide,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_70_formaldehyde,Formaldehyde,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_72_humidity,Humidity,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_80_pressure,Pressure,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_84_temperature,Temperature,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-11,var_47_particulate_matter_1,Particulate matter 1,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_48_particulate_matter_4,Particulate matter 4,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_49_particulate_matter_2_5,Particulate matter 2.5,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_50_particulate_matter_10,Particulate matter 10,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_67_carbon_dioxide,Carbon dioxide,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_70_formaldehyde,Formaldehyde,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_72_humidity,Humidity,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_80_pressure,Pressure,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_84_temperature,Temperature,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-11,var_47_particulate_matter_1,Particulate matter 1,all_five_spaces_total,0,0,0,0,0
+2024-11,var_48_particulate_matter_4,Particulate matter 4,all_five_spaces_total,0,0,0,0,0
+2024-11,var_49_particulate_matter_2_5,Particulate matter 2.5,all_five_spaces_total,0,0,0,0,0
+2024-11,var_50_particulate_matter_10,Particulate matter 10,all_five_spaces_total,0,0,0,0,0
+2024-11,var_67_carbon_dioxide,Carbon dioxide,all_five_spaces_total,0,0,0,0,0
+2024-11,var_70_formaldehyde,Formaldehyde,all_five_spaces_total,0,0,0,0,0
+2024-11,var_72_humidity,Humidity,all_five_spaces_total,0,0,0,0,0
+2024-11,var_80_pressure,Pressure,all_five_spaces_total,0,0,0,0,0
+2024-11,var_84_temperature,Temperature,all_five_spaces_total,0,0,0,0,0
+2024-11,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,all_five_spaces_total,0,0,0,0,0
+2024-12,var_47_particulate_matter_1,Particulate matter 1,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_48_particulate_matter_4,Particulate matter 4,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_49_particulate_matter_2_5,Particulate matter 2.5,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_50_particulate_matter_10,Particulate matter 10,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_67_carbon_dioxide,Carbon dioxide,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_70_formaldehyde,Formaldehyde,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_72_humidity,Humidity,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_80_pressure,Pressure,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_84_temperature,Temperature,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,0,0,0,0,0
+2024-12,var_47_particulate_matter_1,Particulate matter 1,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_48_particulate_matter_4,Particulate matter 4,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_49_particulate_matter_2_5,Particulate matter 2.5,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_50_particulate_matter_10,Particulate matter 10,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_67_carbon_dioxide,Carbon dioxide,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_70_formaldehyde,Formaldehyde,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_72_humidity,Humidity,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_80_pressure,Pressure,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_84_temperature,Temperature,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,227f1068-9e41-469f-bef0-275f27a0bdba,0,0,0,0,0
+2024-12,var_47_particulate_matter_1,Particulate matter 1,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_48_particulate_matter_4,Particulate matter 4,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_49_particulate_matter_2_5,Particulate matter 2.5,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_50_particulate_matter_10,Particulate matter 10,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_67_carbon_dioxide,Carbon dioxide,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_70_formaldehyde,Formaldehyde,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_72_humidity,Humidity,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_80_pressure,Pressure,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_84_temperature,Temperature,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,0,0,0,0,0
+2024-12,var_47_particulate_matter_1,Particulate matter 1,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_48_particulate_matter_4,Particulate matter 4,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_49_particulate_matter_2_5,Particulate matter 2.5,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_50_particulate_matter_10,Particulate matter 10,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_67_carbon_dioxide,Carbon dioxide,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_70_formaldehyde,Formaldehyde,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_72_humidity,Humidity,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_80_pressure,Pressure,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_84_temperature,Temperature,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,941f0352-bb69-47d0-a9c5-ac29eb4f7319,0,0,0,0,0
+2024-12,var_47_particulate_matter_1,Particulate matter 1,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_48_particulate_matter_4,Particulate matter 4,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_49_particulate_matter_2_5,Particulate matter 2.5,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_50_particulate_matter_10,Particulate matter 10,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_67_carbon_dioxide,Carbon dioxide,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_70_formaldehyde,Formaldehyde,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_72_humidity,Humidity,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_80_pressure,Pressure,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_84_temperature,Temperature,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,0,0,0,0,0
+2024-12,var_47_particulate_matter_1,Particulate matter 1,all_five_spaces_total,0,0,0,0,0
+2024-12,var_48_particulate_matter_4,Particulate matter 4,all_five_spaces_total,0,0,0,0,0
+2024-12,var_49_particulate_matter_2_5,Particulate matter 2.5,all_five_spaces_total,0,0,0,0,0
+2024-12,var_50_particulate_matter_10,Particulate matter 10,all_five_spaces_total,0,0,0,0,0
+2024-12,var_67_carbon_dioxide,Carbon dioxide,all_five_spaces_total,0,0,0,0,0
+2024-12,var_70_formaldehyde,Formaldehyde,all_five_spaces_total,0,0,0,0,0
+2024-12,var_72_humidity,Humidity,all_five_spaces_total,0,0,0,0,0
+2024-12,var_80_pressure,Pressure,all_five_spaces_total,0,0,0,0,0
+2024-12,var_84_temperature,Temperature,all_five_spaces_total,0,0,0,0,0
+2024-12,var_99_light_volatile_organic_compounds,Light Volatile Organic Compounds,all_five_spaces_total,0,0,0,0,0

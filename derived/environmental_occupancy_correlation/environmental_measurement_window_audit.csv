@@ -1,0 +1,2 @@
+window_start_local,window_end_local_exclusive,environmental_source_rows_in_window,environmental_observed_utc_hours,environmental_first_local_timestamp,environmental_last_local_timestamp,environmental_note
+2024-05-01 00:00:00+10:00,2025-01-01 00:00:00+11:00,21361,1060,2024-05-01 00:05:22+10:00,2024-06-14 03:45:44+10:00,"Matched on JSON measurement timestamp, never createdate; each metric has its own nonmissing counts."
