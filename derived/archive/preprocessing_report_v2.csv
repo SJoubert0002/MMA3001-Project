@@ -1,0 +1,7 @@
+check,observed
+occupancy_input,5occupancySensor_MayToDec2024_9MRows.csv
+occupancy_rows,9091732
+occupancy_floorspaces,5
+occupancy_missing_headcount,0
+occupancy_unknown_previous_status,193058
+occupancy_headcount_range,"(np.float64(0.0), np.float64(72.0))"
