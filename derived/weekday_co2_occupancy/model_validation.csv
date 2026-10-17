@@ -1,0 +1,3 @@
+model,train_dates,test_dates,train_start_date,train_end_date,test_start_date,test_end_date,train_hours,test_hours,intercept_ppm,occupancy_slope_ppm_per_person,mae_ppm,rmse_ppm,r_squared
+occupancy_only_linear_regression,34,9,2024-05-01,2024-06-04,2024-06-05,2024-06-13,386,121,452.13354572545484,4.582140032830203,20.813638741565626,23.864217190206713,-0.7951271290565065
+training_mean_baseline,34,9,2024-05-01,2024-06-04,2024-06-05,2024-06-13,386,121,507.4213298791019,0.0,49.81113704163634,52.899882607272694,-7.820846021132976
