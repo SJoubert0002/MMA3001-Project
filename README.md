@@ -48,15 +48,68 @@ The only inputs are the room, the time and (optionally) new data. The semester c
 
 ## 2. Installation
 
+**Step 0: install 64-bit Python 3.13 or later (Windows).** Download the **Windows installer (64-bit)** from
+<https://www.python.org/downloads/windows/>. Tick **"Add python.exe to PATH"** and keep **"tcl/tk and IDLE"** ticked (the
+pop-ups need it). The code was developed on Python 3.14 and also runs on 3.13. **32-bit Python does not work**: pandas and
+scikit-learn have no 32-bit Windows builds, and `pip install` fails with a Visual Studio / `vswhere.exe` error. Check in a
+new PowerShell window:
+
 ```powershell
-# from the repository root
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements-lock.txt     # exact versions used for every result (Python 3.14)
-# or: pip install -r requirements.txt    # the same top-level packages, without their dependencies pinned
+py --version                                              # Python 3.13.x or later
+py -c "import struct; print(struct.calcsize('P')*8, 'bit')"   # must print 64 bit
 ```
 
-The versions listed are the ones tested; older versions are untested.
+If `python` says *"Python was not found; run without arguments to install from the Microsoft Store"*, that is only the
+Microsoft Store shortcut. Use `py` as below, or turn the shortcut off in *Settings > Apps > Advanced app settings > App
+execution aliases* ("App Installer python.exe").
+
+**Step 1: get the code and install the packages.** Copy the whole block into PowerShell:
+
+```powershell
+git clone https://github.com/SJoubert0002/MMA3001-Project.git
+cd MMA3001-Project                       # every command below is run from this folder
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+- Without git, use the green **Code > Download ZIP** button on the repository page, extract it, and open PowerShell in the
+  extracted folder (in File Explorer, click the address bar, type `powershell`, press Enter).
+- If `git clone` says the folder already exists, you cloned before: `cd MMA3001-Project` and run `git pull` instead.
+- `requirements-lock.txt` installs the exact versions used for every result (Python 3.14) in place of `requirements.txt`.
+- The environment's `python.exe` is called directly, so no activation (and no execution-policy change) is needed. If you prefer
+  to activate it and PowerShell says *"running scripts is disabled"*, run
+  `Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned` first, then `.\.venv\Scripts\Activate.ps1`.
+- If a `.venv` was made with the wrong Python, delete it (`Remove-Item -Recurse -Force .venv`) and repeat Step 1.
+
+**Step 2: run it.**
+
+```powershell
+.\.venv\Scripts\python.exe master.py
+```
+
+Three pop-ups open in turn (see [section 3](#3-running-it)). Leave both file boxes empty and click **Continue**, choose
+**G.20**, type `2025-04-09 14:00`, click **OK**, then **No plots**. To skip the pop-ups:
+
+```powershell
+.\.venv\Scripts\python.exe master.py G.20 "2025-04-09 14:00"
+```
+
+Expected output (the model files come with the clone, so no raw data is needed):
+
+```
+Expected headcount in G.20 at 2025-04-09 14:00: 2.8 people (typically within 1.4 of the model; about 1.5 to 4.2)
+  model:  2025_semester_1.csv (2025 semester_1, Wednesday regression)
+  basis:  12 dates of that weekday in the period; ...
+```
+
+The rest of this README writes `python master.py`; with the environment above, read that as
+`.\.venv\Scripts\python.exe master.py` (or activate the environment and use `python`).
+
+The raw sensor export is **not** included in the repository (it is too large). Without it you can query the saved models
+(rooms G.20, G.25 and three unnamed IDs, years 2023 to 2026; the 2026 periods are partial), run the tests, and use your own data in the format of
+[section 4](#4-inputs-and-required-formats). The full example needs the raw export and cannot be run from a fresh clone.
+
+The versions listed are the ones tested (Python 3.14.5; also confirmed to run on 3.13.17, 64-bit); older versions are untested.
 
 | Package | Needed for |
 |---|---|
@@ -94,7 +147,9 @@ python master.py G.20 "2025-04-09 14:00" --data new.csv --lookup lookup.csv --la
 1. *New files*: optionally choose a raw occupancy CSV and/or a room lookup CSV. Skip both to use only the saved models.
    (Skipped when `--data` or `--lookup` is given.)
 2. *Room and time*: choose a room from the list and type the time.
-3. *Plots*: tick the plots to show. Closing the window or pressing "No plots" shows nothing.
+3. *Plots*: tick the plots to show. Closing the window or pressing "No plots" shows nothing. The *new data* option appears only
+   if you gave a data file, and the *training data* option only if the raw export has been preprocessed into
+   `data/derived/preprocessed/occupancy_streams/` (not the case on a fresh clone); with nothing to offer, this window is skipped.
 
 Closing or cancelling the first two windows prints `Cancelled.` and exits with code 1.
 

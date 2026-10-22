@@ -34,7 +34,7 @@ from source.analysis.get_headcount import get_headcount
 from source.analysis.list_rooms import list_rooms
 from source.analysis.load_new_data import load_new_data
 from source.analysis.plot_new_data_day import plot_new_data_day
-from source.analysis.plot_training_day import plot_training_day
+from source.analysis.plot_training_day import plot_training_day, TRAINING_STREAMS
 from source.analysis.read_semester_calendar import read_semester_calendar
 from source.preprocessing.config import DATA_DIR
 from source.preprocessing.ids_in_folder import ids_in_folder
@@ -197,8 +197,9 @@ def main(argv=None):
 
             kinds = {"none": [], "all": ["new", "training"], "ask": None}[args.plots]
             if kinds is None:
-                available = {k: v for k, v in PLOT_CHOICES.items() if data_file or k != "new"}
-                kinds = ask_plots(available) if interactive else []
+                available = {k: v for k, v in PLOT_CHOICES.items()
+                             if (data_file or k != "new") and (k != "training" or any(TRAINING_STREAMS.glob("*.csv")))}
+                kinds = ask_plots(available) if interactive and available else []
             show_plots(kinds, room, time_text, calendar, (streams, models, label) if data_file else None,
                        out["lookup_folders"])
         return 0 if value is not None else 1
