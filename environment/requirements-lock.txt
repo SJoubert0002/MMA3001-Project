@@ -1,6 +1,6 @@
 # Exact versions used for every result in this repository (Python 3.14.5, Windows).
-# Reproduce with: pip install -r requirements-lock.txt
-# requirements.txt holds the looser minimums for other setups.
+# Reproduce with: pip install -r environment\requirements-lock.txt
+# requirements.txt (same folder) holds the top-level packages only.
 asttokens==3.0.2
 cloudpickle==3.1.2
 colorama==0.4.6

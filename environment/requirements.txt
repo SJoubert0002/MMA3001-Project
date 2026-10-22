@@ -1,5 +1,7 @@
-# Versions used (Python 3.14.5; also run on 3.13.17, 64-bit). Older versions are untested.
-# Install (64-bit Python only): .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+# Versions used. Tested on Python 3.14.5 and 3.13.17 (64-bit). Expected to work on 3.12 (untested).
+# On 3.11 the numpy and scipy pins do not install; use unpinned numpy, pandas, scikit-learn and matplotlib.
+# Install (64-bit Python only), from the repository root:
+#   .\.venv\Scripts\python.exe -m pip install -r environment\requirements.txt
 # requirements-lock.txt pins these plus all their dependencies.
 # tkinter (file pop-ups) ships with the standard Python installer.
 

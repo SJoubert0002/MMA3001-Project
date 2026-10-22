@@ -48,16 +48,27 @@ The only inputs are the room, the time and (optionally) new data. The semester c
 
 ## 2. Installation
 
-**Step 0: install 64-bit Python 3.13 or later (Windows).** Download the **Windows installer (64-bit)** from
+**Step 0: install 64-bit Python 3.13 or 3.14 (Windows).** Download the **Windows installer (64-bit)** from
 <https://www.python.org/downloads/windows/>. Tick **"Add python.exe to PATH"** and keep **"tcl/tk and IDLE"** ticked (the
-pop-ups need it). The code was developed on Python 3.14 and also runs on 3.13. **32-bit Python does not work**: pandas and
+pop-ups need it). **32-bit Python does not work**: pandas and
 scikit-learn have no 32-bit Windows builds, and `pip install` fails with a Visual Studio / `vswhere.exe` error. Check in a
 new PowerShell window:
 
 ```powershell
-py --version                                              # Python 3.13.x or later
+py --version                                              # Python 3.13.x or 3.14.x
 py -c "import struct; print(struct.calcsize('P')*8, 'bit')"   # must print 64 bit
 ```
+
+**Python versions.**
+
+| Version | Status |
+|---|---|
+| 3.14 (3.14.5) | **Tested**: all results, tests and examples. |
+| 3.13 (3.13.17, 64-bit) | **Tested**: install, pop-ups, queries and a `test.csv` run in both `data/` and `test/`. |
+| 3.12 | *Expected to work* (not tested): the pinned numpy 2.5.4 and scipy 1.18.1 require Python 3.12 or later, and no code here needs anything newer. |
+| 3.11 | *Possible but not with these pins* (not tested): pandas, scikit-learn and matplotlib support 3.11 but the pinned numpy and scipy do not. Install the unpinned packages (`pip install numpy pandas scikit-learn matplotlib`) instead. |
+| 3.10 and older | *Not expected to work*: the pinned pandas 3 line needs 3.11 or later. |
+| 3.15 and later | *Unknown* (not tested): depends on whether the pinned packages publish wheels for it. |
 
 If `python` says *"Python was not found; run without arguments to install from the Microsoft Store"*, that is only the
 Microsoft Store shortcut. Use `py` as below, or turn the shortcut off in *Settings > Apps > Advanced app settings > App
@@ -69,13 +80,13 @@ execution aliases* ("App Installer python.exe").
 git clone https://github.com/SJoubert0002/MMA3001-Project.git
 cd MMA3001-Project                       # every command below is run from this folder
 py -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r environment\requirements.txt
 ```
 
 - Without git, use the green **Code > Download ZIP** button on the repository page, extract it, and open PowerShell in the
   extracted folder (in File Explorer, click the address bar, type `powershell`, press Enter).
 - If `git clone` says the folder already exists, you cloned before: `cd MMA3001-Project` and run `git pull` instead.
-- `requirements-lock.txt` installs the exact versions used for every result (Python 3.14) in place of `requirements.txt`.
+- `environment\requirements-lock.txt` installs the exact versions used for every result (Python 3.14) in place of `environment\requirements.txt`.
 - The environment's `python.exe` is called directly, so no activation (and no execution-policy change) is needed. If you prefer
   to activate it and PowerShell says *"running scripts is disabled"*, run
   `Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned` first, then `.\.venv\Scripts\Activate.ps1`.
@@ -108,7 +119,7 @@ The raw sensor export is **not** included in the repository (it is too large). W
 (rooms G.20, G.25 and three unnamed IDs, years 2023 to 2026; the 2026 periods are partial), run the tests, and use your own data in the format of
 [section 4](#4-inputs-and-required-formats). The full example needs the raw export and cannot be run from a fresh clone.
 
-The versions listed are the ones tested (Python 3.14.5; also confirmed to run on 3.13.17, 64-bit); older versions are untested.
+The versions listed in `environment/` are the ones tested; see the Python version table above.
 
 | Package | Needed for |
 |---|---|
@@ -393,8 +404,8 @@ The tests use small synthetic readings in temporary folders and never write to `
 | [master.py](master.py) | Entry point: answers a room-and-time query, with optional new data and plots. |
 | [README.md](README.md) | This guide. |
 | [LICENSE](LICENSE) | GNU GPL v3 licence. |
-| [requirements.txt](requirements.txt) / [requirements-lock.txt](requirements-lock.txt) | Package versions used / the same with every dependency pinned. |
-| `.python-version` | Python version used (3.14). |
+| [environment/requirements.txt](environment/requirements.txt) / [environment/requirements-lock.txt](environment/requirements-lock.txt) | Package versions used / the same with every dependency pinned. |
+| `environment/.python-version` | Python version used (3.14). Tools such as pyenv and uv only read this from the repository root; copy it there if you use them. |
 | `.gitignore` | Keeps raw data, derived files, the test sandbox, bytecode and environments out of git. |
 | [data/Semester Calendar.csv](data/Semester%20Calendar.csv) | Input: semester and mid-semester-break dates (2021-2026) that define the periods. |
 | `data/Sensor ID and Locations - OCC (...).csv` | Input: maps room names to floorspace IDs. |
