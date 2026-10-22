@@ -1,0 +1,10 @@
+Subsets scored (room, year, period, weekday): 112
+
+model          MAE   beats median in    fit ms  predict ms
+svr          0.990         94 of 112      8.67       3.504
+tree         1.005         92 of 112      2.46       0.124
+slot_mean    1.147         53 of 112      0.32       0.197
+median       1.132                 -      0.00       0.000
+
+SVR beats the tree in 80 of 112 subsets.
+Mean stored size: SVR 595 support vectors (2 numbers each), tree 13.1 nodes.

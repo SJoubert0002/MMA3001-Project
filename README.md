@@ -374,7 +374,7 @@ a query from saved models takes about 20 ms in the function (about 0.7 s for the
 takes about 65 s; building the 8 models of one room takes about 13 s (peak 290 MB of Python allocations); building all 37 models takes about
 71 s; the whole process peaks at about 630 MB; the full example takes about 314 s. The profiler shows where the time goes: building a room is
 about half timestamp parsing (`pandas.to_datetime`) and about a quarter SVR fitting and cross-validation; a query is dominated by
-re-reading the small lookup and calendar files on every call (about 40%), not by the model.
+re-reading the small lookup file on every call (about 30%) and labelling the period from the calendar (about 40%), not by the model.
 
 **Limitations**
 
@@ -426,7 +426,8 @@ The tests use small synthetic readings in temporary folders and never write to `
 | [examples/full_analysis.py](examples/full_analysis.py) | The full analysis: build on G.20 and G.25, test on the other three. |
 | [examples/README.md](examples/README.md) | Describes the example and its outputs. |
 | [examples/profile_performance.py](examples/profile_performance.py) | Times, profiles and memory-measures preprocessing, model building and a query. |
-| [reports/](reports/test_report.txt) | `test_report.txt` / `test_report.xml` (pytest results) and `performance.txt` (timings, profiler output, memory). |
+| [examples/compare_models.py](examples/compare_models.py) | Scores the SVR against a shallow tree, the slot-mean profile and the constant median (accuracy, fit and predict time, stored size). |
+| [reports/](reports/test_report.txt) | `test_report.txt` / `test_report.xml` (pytest results) `performance.txt` (timings, profiler output, memory) and `model_comparison.txt` (SVR against the alternatives). |
 | [archive/](archive/README.md) | For anyone interested: earlier notebooks and the numbered investigations (`investigations/01` to `08`, each with a README, `run.py` and results) that led to the final design. Not needed to use the tool. |
 | `examples/output/` | The example's saved output: `scores.csv`, `models_built.csv`, `models/` and 16 PNG plots. |
 
