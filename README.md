@@ -28,7 +28,7 @@ This README is about **using** the tool: its inputs, outputs, formats and every 
 14. [The full example](#14-the-full-example)
 15. [Tests and documentation](#15-tests-and-documentation)
 16. [Repository layout](#16-repository-layout)
-17. [AI acknowledgement (draft, author to confirm)](#17-ai-acknowledgement)
+17. [AI acknowledgement](#17-ai-acknowledgement)
 18. [Licence and references](#18-licence-and-references)
 
 ---
@@ -433,9 +433,9 @@ The tests use small synthetic readings in temporary folders and never write to `
 
 ## 17. AI acknowledgement
 
-*Draft: the author must confirm this section, including whether any data was sent to an external AI service.*
-AI coding assistance (GitHub Copilot) was used to help write, restructure and document the code. The author reviewed and ran the
-code and is responsible for its content.
+GitHub Copilot, an AI coding assistant running in Visual Studio Code, was used in an interactive chat throughout the project. The author set the direction and the assistant implemented what was specified. Its work included: preprocessing the raw occupancy export (cleaning, period labelling and splitting into per-room files); writing and running the investigation scripts that compared mean, median and mode lookups, decision trees and RBF support-vector regression, and tabulating their cross-validated results; splitting the original notebook into one function per module with a single entry point (`master.py`); the pop-up windows, input validation, output routing and plots; the docstrings, this README, the pdoc HTML documentation, the pytest tests, and the profiling and model-comparison scripts and their reports; diagnosing installation problems on a clean machine; guiding the creation of the zipped clone; and drafting the written report from the repository's own results. Most of the code and prose was written by the assistant on the author's instruction. Prompts and relevant project context were shared with the service to provide this assistance.
+
+The author defined the problem (a tool whose only inputs are a room name and a time), decided to reset the early analysis, removed the environmental data from scope, and made the design decisions: whole-date cross-validation, the three-period layout and its known cost for mid-semester break 2, and which files are public. Suggestions were reviewed rather than accepted automatically: results come from re-runnable scripts, README examples and error messages were produced by running the code, and a fresh clone was installed and run from this README on a clean Python install. This caught real assistant errors, including a zip method that omitted the `.git` folder, an assumed Desktop path, install instructions that failed on a clean machine, a personal file path in the generated documentation, and early model choices that did not hold up under whole-date validation. The author remains responsible for the project's design, implementation, analysis and conclusions.
 
 ## 18. Licence and references
 
