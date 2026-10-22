@@ -102,8 +102,7 @@ Expected headcount in G.20 at 2025-04-09 14:00: 2.8 people (typically within 1.4
   basis:  12 dates of that weekday in the period; ...
 ```
 
-The rest of this README writes `python master.py`; with the environment above, read that as
-`.\.venv\Scripts\python.exe master.py` (or activate the environment and use `python`).
+All later commands in this README use `.\.venv\Scripts\python.exe` for the same reason.
 
 The raw sensor export is **not** included in the repository (it is too large). Without it you can query the saved models
 (rooms G.20, G.25 and three unnamed IDs, years 2023 to 2026; the 2026 periods are partial), run the tests, and use your own data in the format of
@@ -124,14 +123,17 @@ A fresh clone already contains the saved models in [data/models/](data/models/RE
 
 ## 3. Running it
 
-Run from anywhere; paths are resolved from the repository, not the working directory.
+Run these from the repository folder, after the setup in section 2. Every command uses the environment's own Python
+(`.\.venv\Scripts\python.exe`), so it works even if `python` is not recognised on your machine.
 
 ```powershell
-python master.py                                          # pop-ups: optional new files, then room and time, then optional plots
-python master.py G.20 "2025-04-09 14:00"                  # no question pop-ups; the plots pop-up is skipped
-python master.py G.20 "2025-04-09 14:00" --plots all      # also show every optional plot
-python master.py G.20 "2025-04-09 14:00" --data new.csv --lookup lookup.csv --label trial
+.\.venv\Scripts\python.exe master.py                                          # pop-ups: optional new files, then room and time, then optional plots
+.\.venv\Scripts\python.exe master.py G.20 "2025-04-09 14:00"                  # no question pop-ups; the plots pop-up is skipped
+.\.venv\Scripts\python.exe master.py G.20 "2025-04-09 14:00" --plots all      # also show every optional plot
+.\.venv\Scripts\python.exe master.py G.20 "2025-04-09 14:00" --data new.csv --lookup lookup.csv --label trial
 ```
+
+(If you have activated the environment, `python master.py ...` is the same thing.)
 
 | Argument | Meaning |
 |---|---|
@@ -378,8 +380,8 @@ only, as a reference for what to expect from the output. It reads the raw export
 ## 15. Tests and documentation
 
 ```powershell
-python -m pytest source/tests -p no:cacheprovider      # 10 tests, about 2 seconds
-python -m pdoc source master.py -o source/docs         # regenerate the HTML docs
+.\.venv\Scripts\python.exe -m pytest source/tests -p no:cacheprovider      # 10 tests, about 2 seconds
+.\.venv\Scripts\python.exe -m pdoc source master.py -o source/docs         # regenerate the HTML docs
 ```
 
 The tests use small synthetic readings in temporary folders and never write to `data/` or `test/`.

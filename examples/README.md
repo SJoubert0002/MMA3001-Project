@@ -8,7 +8,7 @@ without opening a window.
 > regenerate it with the command below if you want your own copy.
 
 ```powershell
-python examples\full_analysis.py        # about 2 minutes; run from anywhere
+.\.venv\Scripts\python.exe examples\full_analysis.py        # about 5 minutes; needs the raw export in data\
 ```
 
 ## What it does

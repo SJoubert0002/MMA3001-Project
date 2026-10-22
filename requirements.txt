@@ -1,5 +1,5 @@
-# Versions used (Python 3.14.5). Older versions are untested.
-# Install: pip install -r requirements.txt
+# Versions used (Python 3.14.5; also run on 3.13.17, 64-bit). Older versions are untested.
+# Install (64-bit Python only): .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 # requirements-lock.txt pins these plus all their dependencies.
 # tkinter (file pop-ups) ships with the standard Python installer.
 
