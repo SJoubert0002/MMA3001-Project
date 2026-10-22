@@ -1,0 +1,59 @@
+Python 3.14.5
+
+== build the models of one room (G.20) ==
+wall time: 13.153 s
+peak Python allocations (tracemalloc): 290.0 MB
+
+cProfile, top 12 by cumulative time:
+1211851 function calls (1198742 primitive calls) in 12.153 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1226 to 12 due to restriction <12>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.027    0.027   12.153   12.153 profile_performance.py:94(<lambda>)
+        1    0.023    0.023   12.126   12.126 build_models.py:13(build_models)
+        1    0.001    0.001    6.346    6.346 read_room_data.py:12(read_room_data)
+        1    0.010    0.010    5.527    5.527 datetimes.py:687(to_datetime)
+        1    0.000    0.000    5.516    5.516 datetimes.py:321(_convert_listlike_datetimes)
+        1    5.501    5.501    5.504    5.504 datetimes.py:459(_array_strptime_with_fallback)
+        8    0.012    0.002    3.365    0.421 make_model.py:13(make_model)
+       56    0.055    0.001    1.803    0.032 score_svr.py:11(score_svr)
+      280    0.003    0.000    1.517    0.005 fit_svr.py:9(fit_svr)
+      280    0.003    0.000    1.508    0.005 base.py:1381(wrapper)
+      184    0.006    0.000    1.502    0.008 accessor.py:107(_getter)
+      184    0.002    0.000    1.496    0.008 accessors.py:91(_delegate_property_get)
+
+models saved for G.20: 8 files
+
+== answer one query (get_headcount, saved model) ==
+wall time: 4.615 s
+peak Python allocations (tracemalloc): 1.0 MB
+
+cProfile, top 12 by cumulative time:
+13662802 function calls (13343802 primitive calls) in 9.145 seconds
+
+   Ordered by: cumulative time
+   List reduced from 914 to 12 due to restriction <12>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    9.146    9.146 profile_performance.py:98(<lambda>)
+      200    0.010    0.000    9.143    0.046 get_headcount.py:19(get_headcount)
+      200    0.004    0.000    3.866    0.019 find_period.py:9(find_period)
+      200    0.045    0.000    3.819    0.019 label_periods.py:8(label_periods)
+      200    0.008    0.000    2.898    0.014 find_floorspace_ids.py:8(find_floorspace_ids)
+      200    0.089    0.000    2.703    0.014 read_lookup.py:11(read_lookup)
+      800    0.009    0.000    2.157    0.003 readers.py:349(read_csv)
+      800    0.014    0.000    2.137    0.003 readers.py:258(_read)
+31600/21400    0.035    0.000    2.095    0.000 common.py:67(new_method)
+    31600    0.193    0.000    1.410    0.000 series.py:369(__init__)
+     3600    0.036    0.000    1.337    0.000 series.py:1070(__setitem__)
+    11600    0.027    0.000    1.254    0.000 series.py:6726(_cmp_method)
+
+(the query stage above runs the query 200 times; divide by 200)
+
+== preprocess the raw export ==
+wall time: 64.5 s
+raw file size: 1605 MB (tracemalloc is not used here: it slows the run)
+
+peak working set of the whole process: 626 MB

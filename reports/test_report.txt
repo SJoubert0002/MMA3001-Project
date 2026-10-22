@@ -1,0 +1,26 @@
+﻿============================= test session starts =============================
+collecting ... collected 10 items
+
+source/tests/test_pipeline.py::test_check_headings_is_strict PASSED      [ 10%]
+source/tests/test_pipeline.py::test_read_time_accepts_only_the_exact_format PASSED [ 20%]
+source/tests/test_pipeline.py::test_slot_means_average_into_slots PASSED [ 30%]
+source/tests/test_pipeline.py::test_make_model_headings_dates_and_error PASSED [ 40%]
+source/tests/test_pipeline.py::test_weekday_with_too_few_dates_gets_no_model PASSED [ 50%]
+source/tests/test_pipeline.py::test_saved_model_matches_scikit_learn PASSED [ 60%]
+source/tests/test_pipeline.py::test_evaluate_model_rejects_wrong_headings PASSED [ 70%]
+source/tests/test_pipeline.py::test_choose_output_routes_by_input_location PASSED [ 80%]
+source/tests/test_pipeline.py::test_get_headcount_from_saved_models_reports_its_error PASSED [ 90%]
+source/tests/test_pipeline.py::test_get_headcount_errors_are_loud PASSED [100%]
+
+============================== slowest durations ==============================
+1.07s call     source/tests/test_pipeline.py::test_make_model_headings_dates_and_error
+0.04s call     source/tests/test_pipeline.py::test_saved_model_matches_scikit_learn
+0.03s call     source/tests/test_pipeline.py::test_get_headcount_from_saved_models_reports_its_error
+0.02s call     source/tests/test_pipeline.py::test_weekday_with_too_few_dates_gets_no_model
+0.02s call     source/tests/test_pipeline.py::test_get_headcount_errors_are_loud
+0.01s call     source/tests/test_pipeline.py::test_read_time_accepts_only_the_exact_format
+0.01s call     source/tests/test_pipeline.py::test_slot_means_average_into_slots
+0.01s setup    source/tests/test_pipeline.py::test_check_headings_is_strict
+
+(22 durations < 0.005s hidden.  Use -vv to show these durations.)
+============================= 10 passed in 1.89s ==============================
