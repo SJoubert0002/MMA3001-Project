@@ -1,0 +1,20 @@
+# Versions used (Python 3.14.5). Older versions are untested.
+# Install: pip install -r requirements.txt
+# requirements-lock.txt pins these plus all their dependencies.
+# tkinter (file pop-ups) ships with the standard Python installer.
+
+# Saved-model queries
+numpy==2.5.4
+pandas==3.0.6
+
+# Fitting and scoring models (build_models); not needed to answer a query from saved models
+scikit-learn==1.9.1
+
+# Plots (optional, from master.py and the example)
+matplotlib==3.11.2
+
+# HTML documentation (source\docs\), regenerate with: python -m pdoc source master.py -o source/docs
+pdoc==16.0.0
+
+# Tests: python -m pytest source/tests
+pytest==9.1.1

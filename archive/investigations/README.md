@@ -3,7 +3,7 @@
 One folder per investigation, in the order they were run. Each holds a short write-up (`README.md`), the script that
 produced the results (`run.py`, run from the project root) and the saved result tables. Nothing here changes the
 notebook or the saved models. Scripts use the notebook's own functions through [_common.py](_common.py), so they need
-`pre-Processing.ipynb` and the preprocessed room files in `derived\preprocessed\occupancy_streams`.
+`archive\notebooks\pre-Processing_final_notebook.ipynb` and the preprocessed room files in `data\derived\preprocessed\occupancy_streams`.
 
 | # | Question | Finding |
 |---|---|---|

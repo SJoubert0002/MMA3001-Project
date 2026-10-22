@@ -1,3 +1,0 @@
-comparison_group,raw_dataset,processed_dataset,rows,raw_columns,processed_columns,repeats,raw_median_seconds,processed_median_seconds,median_read_time_change_percent,raw_largest_chunk_mib,processed_largest_chunk_mib,largest_chunk_memory_change_percent
-environmental,5EnvSensor_MayToDec2024_180kRows.csv,environmental_measurements_wide_reduced.csv,179447,8,14,3,1.7942256999958772,0.19495000000461005,-89.1345888086957,95.5427827835083,11.58208179473877,-87.87759634238122
-occupancy,5occupancySensor_MayToDec2024_9MRows.csv,occupancy_processed_streams,9091732,8,4,3,14.923287899997376,6.84527099999832,-54.130275808727625,21.850818634033203,8.201725006103516,-62.46490740933102

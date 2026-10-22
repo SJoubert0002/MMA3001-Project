@@ -9,7 +9,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parents[1]))
 from _common import ROOMS
 
-streams = Path("derived/preprocessed/occupancy_streams")
+streams = Path(__file__).resolve().parents[3] / "data" / "derived" / "preprocessed" / "occupancy_streams"
 for rid, room in ROOMS.items():
     d = pd.read_csv(streams / f"{rid}.csv", dtype=str)
     offsets = d.collecteddate.str[-3:]

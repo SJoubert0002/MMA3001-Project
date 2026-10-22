@@ -1,7 +1,7 @@
 # Archive: how the final preprocessing and model came to be
 
-This folder is the project's record of the work that led to the current notebook (`pre-Processing.ipynb`) and the saved
-models in `models\`. Nothing here is used at run time. It exists to show, for the project brief, which alternatives were
+This folder is the project's record of the work that led to the current code (`source\`, run by `master.py`) and the saved
+models in `data\models\`. Nothing here is used at run time. It exists to show, for the project brief, which alternatives were
 tried, how they were validated, and why each was kept or dropped.
 
 **The final design in one paragraph.** Input: a room name and a time. Occupancy readings are split by room and labelled with
@@ -16,11 +16,11 @@ subsets.
 | Path | Contents |
 |---|---|
 | `investigations\` | Numbered, reproducible experiments (README, `run.py`, result CSVs) that chose the model. Index: [investigations\README.md](investigations/README.md). |
-| `notebooks\` | The earlier notebooks and one stray cell, superseded by the overhaul. |
+| `notebooks\` | The earlier notebooks and one stray cell, superseded by the overhaul, plus `pre-Processing_final_notebook.ipynb`: the last single-notebook form of the preprocessing and model (one function per cell), kept as the immediate predecessor of `source\`. It runs from the project root and writes its models to `models\` in place. The archive also held `derived\` (outputs of the earlier occupancy analyses) and `.rewrite_notebook.js`; both are now git-ignored (kept locally only). The notebook's own paths assume the old layout (`derived\`, `models\` and the calendar in the project root); the investigation scripts redirect them to `data\` through `_common.py`. |
 | `working_tree_diff_summary.txt` | A git diff statistic captured before the overhaul (git-ignored). |
 
 Reproduce any investigation from the project root, e.g. `python archive\investigations\05_svr_vs_tree_tuning\run.py`.
-They need `pre-Processing.ipynb` and the preprocessed room files in `derived\preprocessed\occupancy_streams`.
+They need the archived notebook `notebooks\pre-Processing_final_notebook.ipynb` and the preprocessed room files in `data\derived\preprocessed\occupancy_streams` (made by `master.py`).
 
 ## Decision timeline
 
@@ -47,7 +47,6 @@ Each entry gives the objective, the reason it was not carried forward (or what i
 | `pre-Processing_v1.ipynb` | First version of preprocessing (parse environmental and occupancy CSVs, write per-room streams) with built-in unit tests and read benchmarks, plus a raw scatter of Monday-Friday headcounts per room and semester. | The notebook was one 45,000-character cell: hard to read, test or reuse. Superseded by one function per cell with strict inputs. | Inputs and data handling; early validation (unit tests) and timing. |
 | `semester_cycle_occupancy_investigation.ipynb` | Test three hypotheses with a data audit: H1 semester phases differ in occupancy, H2 which weeks drop, H3 daily peaks occur around noon. Compared against persistence baselines. | Descriptive; its "final evidence and conclusion" section was never completed. The project moved to prediction of headcount for a given room and time. Its audit findings were kept: uneven start/end dates, out-of-order rows (4 to 1,317 per room), explicit UTC offsets on every row, no missing headcounts. | Engineering problem; data quality; limitations. |
 | `pre-Processing_occupancy-investigation.ipynb` | The same H1-H3 design as the one above, run on a shared five-room window (May to Dec 2024), with a weekly occupancy plot across rooms. | Same reason. Left unfinished. | Same. |
-| `environmental_occupancy_exploration.ipynb` | Explore environmental sensor records (JSON payloads, sensor IDs) against occupancy. | Environmental data is no longer analysed: it overlapped occupancy only from May to mid-June 2024 and the sensor-to-room mapping was unverified. All ENV preprocessing was removed. | Scope decision and limitation (unverifiable mapping). |
 | `slot_average_plot_cell.py` | Plot Monday semester 1 2024 readings against 15-minute slot averages and a PCHIP curve. | Superseded by modelling with an SVR on slot averages. | Alternatives (interpolation) and visual validation. |
 
 ### `working_tree_diff_summary.txt`
@@ -74,19 +73,46 @@ work was replaced. It carries no results.
   Baselines: a constant median, the zero model, and the slot-mean profile.
 - **It did influence selection**: it exposed the leakage in 03, selected the SVR in 05 and settled pooling in 06-07. A
   selection-bias check chose settings on 2024 and scored them on 2025-26.
-- **What it cannot establish.** Only two rooms (G.20, G.25) are named in the lookup, so generalisation to other rooms is
-  untested. Years are not independent evidence of future semesters. The 2026 data is partial. Sensor accuracy is unknown: no
-  ground-truth counts exist. SVR C and epsilon are in headcount units, so much busier rooms need scaling. The absolute gain
-  over a median (about 12%) is modest because the day-to-day variation is not explained by time of day alone.
+- **What it cannot establish.** The settings were tuned on G.20 and G.25 only. The other three rooms were scored afterwards
+  with the same settings (see Limitations below), but nothing here shows how a room of a different kind, size or sensor
+  would behave. Years are not independent evidence of future semesters. The 2026 data is partial. Sensor accuracy is
+  unknown: no ground-truth counts exist. The absolute gain over a median (about 12-17%) is modest because the day-to-day
+  variation is not explained by time of day alone.
 
 ## Limitations and lessons
 
-- Random-split scores overstate accuracy for time series; use whole-date holdout.
+Decisions the author made on the open technical questions, with the reasoning, so the report can quote them.
+
+- **Overnight sensor noise (stated limitation, not cleaned).** Overnight (00:00-05:00) counts look like flicker (02), but
+  there is no ground truth (access logs, door counts) to prove a count false, so none are removed or set to NaN. The
+  model therefore inherits any such noise; its effect is damped by the 15-minute slot averaging and the SVR's
+  epsilon-insensitive loss, but it is not eliminated.
+- **Unnamed rooms.** The lookup is the only link between a room name and a floorspace ID. A user can only query a room that
+  has data or a saved model and that a lookup names; otherwise they are told to supply data or a lookup (the notebook prints
+  a CLARIFICATION NEEDED message). Nothing is guessed. The lookup file is labelled "Invalid" in its name because its
+  SpaceFloorIDs were reported incorrect; names are therefore only as reliable as that mapping.
+- **Mid-semester break 2 (known trade-off).** Mid-semester breaks are lumped with the other non-teaching days for broad
+  applicability, since the same break pattern cannot be assumed in other rooms. Investigation 07 shows break 2 belongs with
+  its semester (about 1.50 for the lumped model vs 1.16 for a median in G.20 and G.25; with the semester 1.064, with the
+  holidays 1.220); break 1 is about even. The alternative is a one-line change in `label_periods`, and the same reasoning
+  would apply to any other non-teaching period.
+- **Scaling (documented, not built in).** The SVR constants C (0.3) and epsilon (0.1) are in headcount units and were tuned
+  on rooms with mean headcount about 3-4.5. A much busier room might gain a little from scaling them with the room's typical
+  count. This is not built in: MAE is about 1 anyway, the surface is flat (about 0.004 across a wide grid, 05), and a
+  scaling rule would add settings and bloat the model for a gain that may never occur. Evidence so far: across the five
+  rooms in the data (mean headcount 2.3-4.5, 95th percentile 5-14, maximum 15-72) the fixed settings beat the median in every
+  room.
+- **Rooms beyond G.20 and G.25.** Only those two have verified names, but models for the other three IDs are built and
+  stored with them so they are available if later data or a lookup names them, and as evidence for the scaling point. Scored
+  with the unchanged settings: 245 subsets over all five rooms, SVR MAE 0.806 vs 0.968 for a median, better in 205. The
+  quieter rooms have lower MAE (about 0.5-0.9) than G.20 (about 1.0-1.9). One unnamed room has 2024 data only. These
+  scores are not an independent test, since the settings were fixed before these rooms were scored.
+- **Environment.** Developed and tested in a venv on Python 3.14.5 with numpy 2.5, pandas 3.0, scikit-learn 1.9, matplotlib
+  3.11 and scipy 1.18 (the versions used for every result here).
+
+Lessons from the process:- Random-split scores overstate accuracy for time series; use whole-date holdout.
 - Time of day and period explain little of the variation; further gains would need booking or timetable data, which was
   deliberately excluded to keep the inputs minimal.
-- Overnight counts look like flicker and are not yet cleaned.
-- Mid-semester break 2 is predicted worse (about 1.50 vs 1.16 for the median in G.20 and G.25) because of the lumped
-  non-teaching period.
 - Several earlier exploratory scripts (interpolation, mode test) were throwaways; only their numbers survive in 01.
 
 ## AI use (for the brief's reflection)

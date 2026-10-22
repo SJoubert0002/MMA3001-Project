@@ -1,9 +1,27 @@
-5EnvSensor_MayToDec2024_180kRows.csv
-5occupancySensor_MayToDec2024_9MRows.csv
-/data/**
+# Data: only the saved models, the semester calendar and the room lookup are tracked.
+/data/*
 !/data/.gitkeep
+!/data/models/
+!/data/Semester Calendar.csv
+!/data/Sensor ID and Locations - OCC*.csv
+
+# The test folder is a live sandbox: only its placeholder is tracked.
+/test/*
+!/test/.gitkeep
+
+# Not documentation or function: historical outputs and old scripts
+/archive/derived/
+/archive/.rewrite_notebook.js
 /archive/working_tree_diff_summary.txt
-derived/environmental_measurements_wide.csv
-derived/occupancy_measurements_wide.csv
-derived/archive/occupancy_streams_by_floorspace/
-derived/preprocessed/
+
+# Course material, references and personal editor settings
+/MMA3001_2026_Project_Brief.pdf
+/references.bib
+/.vscode/
+
+# Python and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venv-*/
