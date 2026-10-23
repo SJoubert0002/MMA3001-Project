@@ -1,5 +1,14 @@
 # Example: a complete, fully optioned analysis
 
+**Run it (instead of `master.py`).** Optional: this folder exists to be *viewed*, and its committed outputs are the reference. Running these scripts **overwrites** them (`examples\output\`, `reports\performance.txt`, `reports\model_comparison.txt`). If you do run them, do so only *after* the Python check and the clone, virtual-environment and install steps in
+[Installation](../README.md#2-installation) of the main README. From the project root:
+
+```powershell
+.\.venv\Scripts\python.exe examples\full_analysis.py          # the full analysis below; needs the raw export in data\
+.\.venv\Scripts\python.exe examples\compare_models.py         # SVR vs tree vs slot-mean vs median; needs the preprocessed room files
+.\.venv\Scripts\python.exe examples\profile_performance.py    # timings, profiler and memory; writes reports\performance.txt
+```
+
 `full_analysis.py` runs every stage of the project on the real data and saves everything, so the results can be inspected
 without opening a window.
 

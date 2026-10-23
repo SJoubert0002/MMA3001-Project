@@ -1,5 +1,5 @@
 """Decision-tree grid on raw readings: min leaf x max depth, random 80/20 split of readings and a whole-day hold-out.
-Output: results_random_split.csv, results_day_split.csv (in this folder)."""
+Output: results_random_split.csv, results_day_split.csv (in test/output/investigations/03_tree_grid_raw_readings/)."""
 import sys
 from pathlib import Path
 
@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).parents[1]))
 from _common import ROOMS, load_notebook_functions
 
 g = load_notebook_functions()
-here = Path(__file__).parent
+here = Path(__file__).resolve().parents[3] / "test" / "output" / "investigations" / Path(__file__).parent.name; here.mkdir(parents=True, exist_ok=True)
 LEAVES, DEPTHS = [1, 5, 20, 50, 100, 200, 500, 1000, 2000], [4, 8, None]
 random_rows, day_rows = [], []
 

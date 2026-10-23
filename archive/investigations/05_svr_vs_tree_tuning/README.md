@@ -1,5 +1,14 @@
 # 05 - RBF SVR vs decision tree: choosing and tuning the model
 
+**Run it (instead of `master.py`).** Run this only *after* the Python check and the clone, virtual-environment and install steps in
+[Installation](../../../README.md#2-installation) of the main README, and with the preprocessed room files in
+`data\derived\preprocessed\occupancy_streams` (made by running the tool once on the raw export). From the project root
+(results are written to `test\output\investigations\05_svr_vs_tree_tuning\`, which is git-ignored; the committed CSV is not touched):
+
+```powershell
+.\.venv\Scripts\python.exe archive\investigations\05_svr_vs_tree_tuning\run.py
+```
+
 **Question.** Which one-input regression (time of day only) has the soundest theoretical backing, and which settings should
 be fixed in the notebook so that no user input beyond a room and a time is needed?
 

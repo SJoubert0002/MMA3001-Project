@@ -19,7 +19,7 @@ subsets.
 | `notebooks\` | The earlier notebooks and one stray cell, superseded by the overhaul, plus `pre-Processing_final_notebook.ipynb`: the last single-notebook form of the preprocessing and model (one function per cell), kept as the immediate predecessor of `source\`. It runs from the project root and writes its models to `models\` in place. The archive also held `derived\` (outputs of the earlier occupancy analyses) and `.rewrite_notebook.js`; both are now git-ignored (kept locally only). The notebook's own paths assume the old layout (`derived\`, `models\` and the calendar in the project root); the investigation scripts redirect them to `data\` through `_common.py`. |
 | `working_tree_diff_summary.txt` | A git diff statistic captured before the overhaul (git-ignored). |
 
-Reproduce any investigation from the project root, e.g. `python archive\investigations\05_svr_vs_tree_tuning\run.py`.
+Reproduce any investigation (02 to 08) from the project root, *after* the Python check and the clone, virtual-environment and install steps in [Installation](../README.md#2-installation) of the main README, e.g. `.\.venv\Scripts\python.exe archive\investigations\05_svr_vs_tree_tuning\run.py`. Each investigation's own README gives its exact line.
 They need the archived notebook `notebooks\pre-Processing_final_notebook.ipynb` and the preprocessed room files in `data\derived\preprocessed\occupancy_streams` (made by `master.py`).
 
 ## Decision timeline

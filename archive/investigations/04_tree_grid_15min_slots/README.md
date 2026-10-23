@@ -1,5 +1,14 @@
 # 04 - Decision-tree grid on 15-minute slot averages
 
+**Run it (instead of `master.py`).** Run this only *after* the Python check and the clone, virtual-environment and install steps in
+[Installation](../../../README.md#2-installation) of the main README, and with the preprocessed room files in
+`data\derived\preprocessed\occupancy_streams` (made by running the tool once on the raw export). From the project root
+(results are written to `test\output\investigations\04_tree_grid_15min_slots\`, which is git-ignored; the committed CSV is not touched):
+
+```powershell
+.\.venv\Scripts\python.exe archive\investigations\04_tree_grid_15min_slots\run.py
+```
+
 **Question.** Does averaging each date's readings into 15-minute slots (to remove point-to-point flicker while keeping
 fidelity) improve the tree, and does it beat simple baselines on unseen days?
 

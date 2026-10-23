@@ -2,7 +2,7 @@
 
 One folder per investigation, in the order they were run. Each holds a short write-up (`README.md`), the script that
 produced the results (`run.py`, run from the project root) and the saved result tables. Nothing here changes the
-notebook or the saved models. Scripts use the notebook's own functions through [_common.py](_common.py), so they need
+notebook or the saved models. Run any `run.py` (02 to 08; 01 has no script) with `.\.venv\Scripts\python.exe archive\investigations\<folder>\run.py`, only *after* the Python check and the clone, virtual-environment and install steps in [Installation](../../README.md#2-installation) of the main README; each folder's README gives its exact line. Scripts use the notebook's own functions through [_common.py](_common.py), so they need
 `archive\notebooks\pre-Processing_final_notebook.ipynb` and the preprocessed room files in `data\derived\preprocessed\occupancy_streams`.
 
 | # | Question | Finding |

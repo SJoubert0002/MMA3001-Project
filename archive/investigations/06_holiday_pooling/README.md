@@ -1,5 +1,14 @@
 # 06 Holiday pooling: one model per period vs one lumped holiday model
 
+**Run it (instead of `master.py`).** Run this only *after* the Python check and the clone, virtual-environment and install steps in
+[Installation](../../../README.md#2-installation) of the main README, and with the preprocessed room files in
+`data\derived\preprocessed\occupancy_streams` (made by running the tool once on the raw export). From the project root
+(results are written to `test\output\investigations\06_holiday_pooling\`, which is git-ignored; the committed CSV is not touched):
+
+```powershell
+.\.venv\Scripts\python.exe archive\investigations\06_holiday_pooling\run.py
+```
+
 **Question.** For the non-teaching periods, is it better to fit each period on its own (with only the pooling needed to fit the
 one-week mid-semester breaks) or to lump all of a year's holiday dates into one model per weekday?
 

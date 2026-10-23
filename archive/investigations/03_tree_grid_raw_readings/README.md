@@ -1,5 +1,14 @@
 # 03 - Decision-tree grid on raw readings
 
+**Run it (instead of `master.py`).** Run this only *after* the Python check and the clone, virtual-environment and install steps in
+[Installation](../../../README.md#2-installation) of the main README, and with the preprocessed room files in
+`data\derived\preprocessed\occupancy_streams` (made by running the tool once on the raw export). From the project root
+(results are written to `test\output\investigations\03_tree_grid_raw_readings\`, which is git-ignored; the committed CSVs are not touched):
+
+```powershell
+.\.venv\Scripts\python.exe archive\investigations\03_tree_grid_raw_readings\run.py
+```
+
 **Question.** With one input (time of day), which minimum leaf size and maximum depth give the lowest error for a decision tree
 fitted to each period's Mondays, Tuesdays and Wednesdays?
 

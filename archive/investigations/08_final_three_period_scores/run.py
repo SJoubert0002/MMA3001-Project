@@ -2,7 +2,7 @@
 
 Each weekday's 15-minute slot means are scored with 4-fold cross-validation that holds out whole dates, against a constant
 median of the training slots. Settings are the fixed ones in the notebook (C 0.3, length 2 h, epsilon 0.1).
-Output: results.csv (one row per room, year, period and weekday) and printed tables.
+Output: results.csv (one row per room, year, period and weekday, in test/output/investigations/08_final_three_period_scores/) and printed tables.
 """
 import sys
 from pathlib import Path
@@ -12,7 +12,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parents[1]))
 from _common import ROOMS, load_notebook_functions
 
-here = Path(__file__).parent
+here = Path(__file__).resolve().parents[3] / "test" / "output" / "investigations" / Path(__file__).parent.name; here.mkdir(parents=True, exist_ok=True)
 nb = load_notebook_functions()
 streams = nb["OUTPUT_DIR"] / "occupancy_streams"
 

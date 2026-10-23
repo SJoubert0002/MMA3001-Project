@@ -7,7 +7,7 @@ investigation 05, one weekday at a time) trained on:
   A, break only: the same break's other weekdays, Monday-Friday fitted together (minimum pooling, from investigation 06).
 Folds are whole dates (4 folds, the same split for every scheme, drawn over all dates of the year used by S and H), so all
 schemes predict exactly the same held-out break slots. Baseline: the constant median of S's training dates.
-Output: results.csv (one row per held-out slot) and printed tables.
+Output: results.csv (one row per held-out slot, in test/output/investigations/07_midsem_break_grouping/) and printed tables.
 """
 import sys
 from pathlib import Path
@@ -18,7 +18,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parents[1]))
 from _common import ROOMS, load_notebook_functions
 
-here = Path(__file__).parent
+here = Path(__file__).resolve().parents[3] / "test" / "output" / "investigations" / Path(__file__).parent.name; here.mkdir(parents=True, exist_ok=True)
 nb = load_notebook_functions()
 nb["np"], nb["pd"] = np, pd
 calendar = nb["calendar"]

@@ -7,7 +7,7 @@ lumped into one 'holiday' group; each weekday (Mon-Sun) is fitted alone on all t
 
 Both schemes predict exactly the same held-out dates (4 folds, whole dates held out, same seed), so the MAEs are directly
 comparable. A constant median of the same training dates as scheme B is the baseline. SVR settings are the fixed ones from
-investigation 05. Output: results.csv (one row per held-out slot) and printed tables.
+investigation 05. Output: results.csv (one row per held-out slot, in test/output/investigations/06_holiday_pooling/) and printed tables.
 """
 import sys
 from pathlib import Path
@@ -18,7 +18,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parents[1]))
 from _common import ROOMS, load_notebook_functions
 
-here = Path(__file__).parent
+here = Path(__file__).resolve().parents[3] / "test" / "output" / "investigations" / Path(__file__).parent.name; here.mkdir(parents=True, exist_ok=True)
 nb = load_notebook_functions()
 nb["np"], nb["pd"] = np, pd
 calendar = nb["calendar"]

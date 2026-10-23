@@ -1,5 +1,14 @@
 # 07 Mid-semester breaks: model them with the semester or with the other holidays?
 
+**Run it (instead of `master.py`).** Run this only *after* the Python check and the clone, virtual-environment and install steps in
+[Installation](../../../README.md#2-installation) of the main README, and with the preprocessed room files in
+`data\derived\preprocessed\occupancy_streams` (made by running the tool once on the raw export). From the project root
+(results are written to `test\output\investigations\07_midsem_break_grouping\`, which is git-ignored; the committed CSV is not touched):
+
+```powershell
+.\.venv\Scripts\python.exe archive\investigations\07_midsem_break_grouping\run.py
+```
+
 **Question.** Follow-up to [06](../06_holiday_pooling/README.md). With three models per year in mind (semester 1, semester 2,
 holidays), should each mid-semester break be lumped into the semester it interrupts, or into the holiday model?
 

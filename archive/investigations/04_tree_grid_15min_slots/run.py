@@ -1,5 +1,5 @@
 """Decision-tree grid on 15-minute slot averages (one value per date and slot), against zero / median / slot-mean baselines.
-Splits: random 80/20 of slots, and whole held-out days. Output: results.csv (in this folder)."""
+Splits: random 80/20 of slots, and whole held-out days. Output: results.csv (in test/output/investigations/04_tree_grid_15min_slots/)."""
 import sys
 from pathlib import Path
 
@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).parents[1]))
 from _common import ROOMS, load_notebook_functions
 
 g = load_notebook_functions()
-here = Path(__file__).parent
+here = Path(__file__).resolve().parents[3] / "test" / "output" / "investigations" / Path(__file__).parent.name; here.mkdir(parents=True, exist_ok=True)
 LEAVES, DEPTHS = [1, 3, 5, 10, 20, 50, 100], [3, 5, 8, 0]
 rows = []
 

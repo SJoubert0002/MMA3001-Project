@@ -1,5 +1,14 @@
 # 08 Adopted layout: three periods per year, one SVR per weekday
 
+**Run it (instead of `master.py`).** Run this only *after* the Python check and the clone, virtual-environment and install steps in
+[Installation](../../../README.md#2-installation) of the main README, and with the preprocessed room files in
+`data\derived\preprocessed\occupancy_streams` (made by running the tool once on the raw export). From the project root
+(results are written to `test\output\investigations\08_final_three_period_scores\`, which is git-ignored; the committed CSV is not touched):
+
+```powershell
+.\.venv\Scripts\python.exe archive\investigations\08_final_three_period_scores\run.py
+```
+
 **Decision.** Following [05](../05_svr_vs_tree_tuning/README.md), [06](../06_holiday_pooling/README.md) and
 [07](../07_midsem_break_grouping/README.md), the notebook uses three periods per room and year, each with one RBF SVR per
 weekday (Monday-Sunday, never pooled):

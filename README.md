@@ -395,8 +395,8 @@ only, as a reference for what to expect from the output. It reads the raw export
 ## 15. Tests and documentation
 
 ```powershell
-.\.venv\Scripts\python.exe -m pytest source/tests -p no:cacheprovider      # 10 tests, about 2 seconds
-.\.venv\Scripts\python.exe -m pytest source/tests -v --no-header -p no:cacheprovider --durations=0 --junitxml=reports\test_report.xml   # regenerate the test report
+.\.venv\Scripts\python.exe -m pytest source/tests -p no:cacheprovider      # 10 tests, about 2 seconds; scratch files go to the system temp folder, never into the repo
+.\.venv\Scripts\python.exe -m pytest source/tests -v --no-header -p no:cacheprovider --durations=0 --junitxml=test\test_report.xml   # regenerate the test report in test\ (the committed copy in reports\ is not touched)
 .\.venv\Scripts\python.exe -m pdoc source master.py -o source/docs         # regenerate the HTML docs
 .\.venv\Scripts\python.exe examples\profile_performance.py                 # regenerate reports\performance.txt (needs the raw export for the preprocessing stage)
 ```

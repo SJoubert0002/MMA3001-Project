@@ -1,5 +1,13 @@
 # 02 - Overnight headcounts and the time zone
 
+**Run it (instead of `master.py`).** Run this only *after* the Python check and the clone, virtual-environment and install steps in
+[Installation](../../../README.md#2-installation) of the main README, and with the preprocessed room files in
+`data\derived\preprocessed\occupancy_streams` (made by running the tool once on the raw export). From the project root:
+
+```powershell
+.\.venv\Scripts\python.exe archive\investigations\02_overnight_and_timezone_check\run.py
+```
+
 **Question.** G.20 semester 1 2024 Monday readings show people at midnight. Is that a timestamp error?
 
 **Setup.** `run.py` checks the UTC offsets stored in the raw timestamps, the hour-by-hour mean headcount before and after the

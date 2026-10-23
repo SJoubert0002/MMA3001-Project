@@ -4,7 +4,7 @@ Input is time of day only (hours). Target is the 15-minute slot mean headcount. 
 (room, year, period, weekday) for Mon-Wed. Every setting is scored with 4-fold cross-validation grouped by
 date (a date is never split between train and test), then averaged over all subsets so ONE global setting
 can be chosen and shipped. Selection bias check: settings are chosen on 2024 subsets and scored on 2025-2026.
-Output: results.csv (per subset and setting), summary tables printed.
+Output: results.csv (per subset and setting, in test/output/investigations/05_svr_vs_tree_tuning/), summary tables printed.
 """
 import sys
 import time
@@ -20,7 +20,7 @@ from sklearn.tree import DecisionTreeRegressor
 sys.path.insert(0, str(Path(__file__).parents[1]))
 from _common import ROOMS, load_notebook_functions
 
-here = Path(__file__).parent
+here = Path(__file__).resolve().parents[3] / "test" / "output" / "investigations" / Path(__file__).parent.name; here.mkdir(parents=True, exist_ok=True)
 FOLDS = 4
 SVR_C = [0.1, 0.3, 1, 3]
 SVR_LENGTH = [1.0, 2.0, 3.0, 4.0, 6.0]      # kernel length scale in hours; gamma = 1 / (2 * length^2)
